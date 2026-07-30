@@ -1,0 +1,495 @@
+Guide to 100% Mind over Matter
+Information Status
+Up-to-date 3.28
+Major Changes:
+· Volatile Vaal Orbs increase the range of rolls on uniques
+
+Introduction
+
+During this content downtime (the Void Year), I've been exploring 100% MoM builds. Achieving 100% was a long term project of mine (and other Mana enthusiasts) and has been possible in Standard since at least Affliction League. In 3.27 Keepers League, Foulborn uniques enabled 100% MoM on Hierophant without legacy items, and enabled in Standard for all Ascendancies to use 100% MoM. The latest league, 3.28 Mirage, introduced Volatiled Vaal Orbs which greatly lessens the gear restraints, enabling more powerful builds in League and Standard.
+
+In this post, I wish to compile all relevant information to achieving 100% MoM and building around it. This is not a specific build guide, nor an exhaustive list of information and will be updated over time. Any additional information shared in the comments will be added to the post.
+
+Acronyms 
+
+EHP: Effective Hit/Health Points (see §13 2. From the defender's resources)
+ES: Energy Shield
+DoT: Damage over Time
+MoM: Mind over Matter
+WE: Watcher's Eye
+PoL: Purity of Lightning
+CI: Chaos Inoculation
+EB: Eldritch Battery
+DF: Divine Flesh
+MotC: Mind of the Council
+PTA: Physical damage taken as
+PDR: Physical Damage Reduction
+BBD: Bound by Destiny
+CotS: Choir of the Storm
+FoT: Font of Thunder
+PC: Power Charge
+EC: Endurance Charge
+FB: Foulborn
+
+
+Mind Over Matter
+
+The term Mind over Matter (MoM) comes from the Mind over Matter Keystone and refers to "Damage taken from Mana before Life". The Keystone was buffed to grant 40% in 3.19 but most other sources were made legacy making 100% impossible outside of Standard, until 3.27 with the introduction of Foulborn Uniques.
+
+Non-legacy sources of MoM 
+
+· Keystone: 40%
+· Watcher's Eye (Clarity): 10%
+· Hierophant (and Scion): 10% (8%)
+· Ivory Tower: 100% Chaos
+· Mind of the Council: 30% Lightning
+· Aylardex: max 16%
+· Foulborn Mind of the Council: 30% Lightning, 30% Physical (up to 37% volatiled)
+
+Power Charges:
+· Default: 3
+· Tree: 3
+· Hierophant (Templar) or Unleashed Potential (Scion): 1
+· Aylardex: 1
+· Corrupted Helmet: 1
+· Warlord Helmet: 1
+· Synthesised Ring: 1
+· Malachai's Loop: 2
+· Void Battery: 1
+· Eventuality Rod: 1
+· Shaper Staff: 1
+· Bound by Destiny: 1
+· Foulborn Romira's Banquet: 1
+
+
+Legacy sources of MoM 
+
+· Undergound Body Armour: 10-11%
+· Eldritch Body Armour: 10%
+· Shaper Body Armour: 10-11% (Elevated 15-17%)
+· Cloak of Defiance: 10-11%
+· Helmet Corruption: 5%
+· That Which Was Taken: 3%
+
+Power Charges:
+· Sentinel mod Ring: 1
+· Crucible Tree Weapon/Shield: 1-2
+· Honoured Tattoo of the Storm: 1
+· Haunted mod Helmet: 1
+
+
+Note on Foulborn Mind of the Council 
+
+This unique Helmet grants 30-37% Lightning and Physical MoM enabling 100% MoM in League (Mirage), as non-legacy sources of MoM amount to 70%. To effectively achieve 100% MoM, all Cold and Fire damage needs to be taken as Lightning (and Chaos as you should be using CI). Using a Volatiled Vaal Orb on Foulborn MotC to increase the Lightning/Physical MoM greatly reduces the gear requirement in League.
+
+Cold/Fire taken as sources:
+· Eyes of the Greatwolf (double taken as): 100%
+· Divine Flesh: 50%
+· Font of Thunder: 40% (41-49% volatiled)
+· Sublime Vision (Purity of Lightning): 30%
+· Watcher's Eye (Purity of Lightning): 10-20%
+· Bound by Destiny (4 Hunter items): 10%
+
+Warning: There is a rounding issue with 'taken as' values where, at exactly 100%, damage can still "leak". So even at 100% conversion, some Cold/Fire damage can leak and oneshot (normally requiring 101%). However, with positive resistances and 70% MoM, no damage will be taken from Life (video testing), no oneshot after 10min afk). The disadvantage is having to make sure your Cold/Fire Resistances are not negative from map mods, altars, etc. After further testing, in addition to positive Resistances, Resistances must also be higher than the enemy's resistance penetration (mostly edge cases like Exarch which debuffs max res and has pen). For this reason, you can choose to still build 101% conversion to avoid any Resistance issue.
+Volatiled Vaal Orbs on FoT enable using BBD for 101% conversion instead of PoL.
+
+
+Note on Aylardex and Power Charges 
+
+This unique amulet grants 1% MoM per PC and, before 3.27, was the only viable way to build for 100%. The difficulty of PC stacking made it the bottle neck for reaching 100% (all other sources amounted to 89%). The introduction of volatiled Foulborn MotC greatly reduces the PC requirement to reach 100% in League.
+
+
+Why 100% MoM?
+
+This is usually a passion/meme build (though Foulborn have changed the game for the 100% MoM archtype). And although there are better builds at similar costs, if you're interested in trying 100% MoM, you can make a decent build and scale up a fair bit. Fortunately the cost investment for 100% MoM has gone down in 3.27 thanks to Foulborn Uniques, and again in 3.28 thanks to Volatiled Vaal Orbs, but the gear requirement still heavily limits the build power and diversity in league. In Standard however, the combination of Foulborn Uniques, Volatiled Vaal Orbs, and legacy gear enables any Ascendancy to use 100% MoM and at a much more optimal cost than previously.
+
+With the introduction of Foulborn Uniques, building 100% MoM has drastically changed in some aspects. Foulborn MotC gives much easier access to MoM but requiring converting all Cold and Fire damage taken. It overall isn't a huge downside as when using CI, you can only take Lightning and Physical Damage. This facilitates achieving max all Resistances and avoiding all other elemental Resistance reductions (especially from Altars and Bosses). Combined with Divine Flesh, you can achieve 95% elemental damage reduction almost inherently. In Standard, these uniques introduce an incredible amount of build diversity by granting access to all Ascendancies and using fewer gear slots.
+
+Personally, I love the mana archetype and achieving 100% MoM is the logical conclusion to mana stacking. Forget Life, forget Energy Shield, Mana is all you need. It also enables using Chaos Innoculation and Eldritch Battery to walk around with 1/1 Life which is funny (or even The Agnostic for 0/0 ES). The strongest build I've ever made uses 100% MoM but it still pales in comparison to top tier builds (especially in Standard).
+
+Advantages 
+
+· Chaos Inoculation: Chaos immunity
+· Divine Flesh with CI: 50% Elemental immunity (60% with BBD)
+· MotC: only take Lightning and Physical damage and ailments
+· Eldritch Battery with DF: skill cost sustain, perma ES recharge but lose inherent stun avoidance
+· Recovery: decent sources for Mana recovery, very strong legacy sources
+· Single stat focus: only scaling Mana for EHP and damage
+· Boss skill immunity
+· Aylardex: inherently requires Power Charges (easy damage)
+
+
+Disadvantages 
+
+· Divine Flesh: Energy Shield can only be used for skill cost
+· Mana cost: spending EHP, especially with Archmage
+· Indigon: possible but difficult to build around
+· Gear constraints: requires Foulborn uniques or legacy items
+· Physical damage: little mitigation, especially against dots
+· Damage taken as Cold/Fire (including PTA): bypasses Mana
+· Single or Double Aura only
+
+
+100% MoM in League (non-legacy)
+
+· 64-65% MoM : 40% Keystone, 10% Hierophant, 10% Clarity WE, 4-5% Aylardex (10 PC)
+* Power Charges: 3 base, 1 Hierophant, 1 Aylardex
+· Foulborn MotC (volatiled): 35-36% Lightning, 35-36% Phys
+· Divine Flesh + CI: 50% Ele as Chaos
+· Font of Thunder (volatiled): 41% Cold/Fire as Lightning
+· BBD: 10% Ele as Chaos (4 Hunter items)
+
+With Volatiled Vaal Orbs, the build is no longer limited by the Power Charge requirements, allowing for much stronger builds. The build is limited to the Templar class (or Scion Hierophant) but can still have some variety as a caster or wander. The build revolves around 2 items that enable 100% MoM: Foulborn MotC and Aylardex. The last parts for 100% are converting Cold and Fire to Lightning and stacking 5-10 PC through any of the suggested methods.
+
+Volatile Vaal Orb 
+
+Here are some notable uniques for 100% MoM.
+Foulborn MotC: up to 37% lightning/chaos MoM, lessens the PC requirements
+Font of Thunder: as close to 41% as possible to avoid the leaked dmg
+Incandescent Heart: up to 31% of ele hits taken as chaos (91% of ele hits taken as chaos with DF and BDD)
+Legacy Cloak of Defiance: up to 12% MoM (13% with 10% tailoring orb)
+
+
+100% MoM in Standard
+
+The major advantage of Standard is access to legacy MoM body armours and TWWT. These items enable not using Aylardex, and Hierophant depending on the volatiled MotC rolls. Builds on a budget will be limited to either Hierophant or Clarity and FoT.
+
+Budget version (without Aylardex) 
+
+Cheapest sources of legacy MoM:
+- 3% TWWT
+- 10-17% MoM body armour: legacy Cloak of Defiance 10-11% (cheapest), legacy Shaper prefix 10-17%
+
+TWWT MoM mod is the most important legacy to get in Standard. It reduces the number of PC required with Aylardex on any Ascendancy but mainly can be combined with a body armour and volatiled MotC for additional MoM, and replace Aylardex as well as either Clarity or Hierophant. Without Clarity, other auras can be used such as PoL for replacing FoT, or Wrath for legacy mana leech WE. Without Hierophant, any Ascendancy can be used.
+
+The cheapest setup will depend on volatiled MotC prices. The most cost effective setups will either be legacy Cloak of Defiance 11% MoM with a 36% MotC or awakened Shaper body armour 15-17% with 30-32% MotC.
+
+Requires legacy Cloak of Defiance, DF + CI, TWWT, volatiled FoT, volatiled MotC, and either Clarity WE or Hierophant
+
+· 36% lightning/Physical MoM: volatiled Foulborn MotC
+· 64% MoM: 40% Keystone, 11% legacy Cloak of Defiance, 3% TWWT, 10% either Hierophant or Clarity
+· 100% Cold/Fire as Lightning/Chaos: 50% DF, 41% Font of Thunder and 10% BBD (or PoL WE and PoL Sublime Vision)
+
+Cost: Cloak <10D (without Tailoring), TWWT MoM 50-100D, volatiled uniques ?D
+
+A MoM Shaper body armour is around 50-100D uncrafted.
+
+
+Optimal version 
+
+Either a 36% MotC with a 21% MoM body armour or a 37% MotC with a 20% MoM body armour is required.
+
+Required: PoL WE, Sublime Vision, DF + CI, 20-21% MoM body armour, TWWT, BBD, volatiled MotC
+
+· 63-64% MoM: 40% Keystone, 20-21% body armour, 3% TWWT
+· 36-37% Light/Phys: volatiled Foulborn MotC
+· 100% Cold/Fire to Lightning/Chaos: 50% DF, 30% Sublime Vision, 20% PoL WE (or 41% Font of Thunder + 10% BBD)
+
+This setup requires the least amount of items for 100% MoM and enables much diverse builds (well, as much as the Mana archtype allows). This is especially interesting for the free Amulet and Shield slots for items such as Foulborn Choir of the Storm, Foulborn Defiance of Destiny, Svalinn, Squire, and legacy synth shields (%inc spell or attack per mana). I have yet to explore all the wonderful possibilities this setup has brought us, and look very much forward to the communities 100% MoM creations.
+
+
+For additional ideas and inspiration, here are the optimal setups for previous patches.
+
+pre-3.28 League setup 
+
+
+· 70% MoM : 40% Keystone, 10% Hierophant, 10% Clarity WE, 10% Aylardex (10 PC)
+* Power Charges: 3 base, 3 Tree, 1 Hierophant, 1 Aylardex, 1 Helmet Corruption, 1 Void Battery
+* Alternatively: 1 Graven's Secret, 1 PC BBD, 1 PC synth ring, 1 Foulborn Romira's
+· Foulborn MotC: 30% Lightning, 30% Phys
+· Divine Flesh + CI: 50% Ele as Chaos
+· Font of Thunder: 40% Cold/Fire as Lightning
+· BBD: 10% Ele as Chaos (4 Hunter items)
+· Other required uniques: either Ralakesh's Impatience or Grand Spectrum (min PC) for max PC.
+
+For 101% conversion: requires Foulborn Inpulsa's Broken Heart, 11% PoL WE instead of BBD
+
+
+Pre-3.27 Standard setup 
+
+Requires Keystone (40% MoM), Aylardex (1 PC), Watcher's Eye Clarity (10% MoM), Hierophant (10% MoM, 1 PC), legacy PC Tattoo (1 PC), legacy TWWT (3% MoM) - (min 69% cumul).
+
+- 21% Body Armour (min 90% cumul):
+
+· 5% Corrupted Helmet and 5 additional PC: Tree (3) and Malachai's Loop (2)
+· 10 additional PC: Tree (3), double synth sentinel rings (4), Malachai's Loop or Helmet (2), Void Battery (1)
+
+- 16% Body Armour (min 85% cumul):
+
+· 5% Corrupted Helmet and 10 additional PC: Tree (3), double synth sentinel rings (4), Malachai's Loop or Helmet (2), Void Battery (1)
+
+Power Charges sources can be switched around depending on your gear/budget. The Elevated Shaper Body Armour can go up to 17% MoM with a 15% mana tailoring. There are other setups when at max power charges (most expensive/rare gear, especially rings and crucible trees).
+
+Sustaining PC: either with Ralakesh's Impatience or stacking minimum PC with Grand Spectrum.
+
+
+Build Diversity
+
+MoM is a "defensive" layer as it redirects incoming damage to an additional pool, increase the EHP. This guide gives a skeleton for defenses on a build and some guidelines for building other parts, but I haven't tested most of it and leave it to you to finish figuring out complete builds.
+
+Currently in Mirage League, it still is only possible on a Hierophant with some specific gear. Though, there are still some interesting options. For caster, there is Archmage, Manastorm, and Foulborn Apep's Rage. For wander, there is Kinetic Blast of Clustering and Power Siphon of the Archmage which go well with MotC. I have not yet seen any viable options for Melee builds (maybe around Foulborn Doon Cuebiyari or Whispers of Infinity).
+
+As 100% MoM is possible on all Ascendancies in Standard, there are many new available sources and mechanics that I cannot fully cover so I will focus on Hierophant Ascendancy as the classic and most optimal 100% MoM build. If you are interest in 100% MoM on a different Ascendancy, I recommend understanding the advantages and sources linked to that Ascendancy beforehand, then trying to adapt them for 100% MoM.
+
+Mana
+
+With the build constraints in Keepers League, it's expensive to achieve high amounts of Mana but 10k+ is attainable, and, in Standard with Foulborn uniques, even 30k+ is achievable. Gear is an important source of Mana but in League the majority will come from the passive tree (or Jewels with Adorned). In Standard, the is possibility of using Foulborn Choir of the Storm to stacking Lightning Resistances as maximum Mana. This new unique should enable stacking high amounts of tank and damage (the synergy with PoL is also perfect).
+
+Main sources 
+
+· Journey Tattoo of the Mind (Most important source): legacy Mana Grand Spectrum works similarly (30 flat x3)
+- Impossible Escape (The Impaler) to reach the Proficiency notable, or using the pathing to Unwavering Stance for the Glorious Vanity and Divine Flesh (instead of Pain Attunement)
+· Foulborn Choir of the Storm: scales Mana with overcapped Lightning Resistance (at half value)
+· Weapon with high flat Mana: Crucible trees are very powerful (legacy), especially 'more Mana' mods
+· Light of Meaning (Mana)
+· Healthy Mind: either Witch socket or near Scion
+· Mana Underground mod rings (ideally misted): reduced cost of skills veiled mod
+· As many Mana clusters as possible: Righteous Degree and Arcane Capacitor are especially good for caster
+. Adorned Jewels:
+- without Foulborn CotS: % Mana or flat Mana, and Intelligence
+- With Foulborn CotS: flat Mana and Lightning Resistance
+
+
+Defenses
+
+The main defense with 100% MoM is Chaos Innoculation for Chaos immunity and Divine Flesh for 50% Elemental damage taken as Chaos (ie 50% Elemental immunity), and converting all remaining Elemental damage to Lightning for Foulborn MotC. This combination can grant up to 96% less Elemental damage taken (50% as Chaos DF, 10% as Chaos BBD, 90% Lightning Resistance). However, while using Foulborn MotC, as conversions occur before MoM in the defense layer calculations (conversion precedes Resistances) and damage taken can only be shifted once, Cold or Fire not converted to Lightning or Chaos will only have 70% MoM applied to them.
+
+Especially as Hierophant, Endurance Charges are a great source of physical and elemental mitigation (4% pdr and elemetal reduction per EC). Using minimum charges or Ralakesh is more optimal for guaranteed mitigation but good charge generation can enable and boost Immortal Call for a defense focused Guard skill.
+
+The critical weakness is the build gets very little Physical mitigation (as most Mana builds). The main source is Physical damage taken as other (PTA) but it is very limited and only against hits (some exceptions). While using Foulborn MotC, PTA Fire/Cold cannot be used as it will bypass Mana.
+With a large Mana pool and reservation, you can stack Stubborn Student on Mana and Armour small Cluster Jewels, or Megalomaniac. The notable grants Armour per unreserved Mana.
+For Physical DoTs, immunity to Bleeding and Corrupted Blood is very important, other DoTs can be mitigated with the Pantheon and the Tree.
+There doesn't seem to enough Physical mitigation, or at least I have not figured it out, so the recommended solution is to invest in Block against Attacks.
+
+An interesting advantage using CI & DF is being immune to some Boss skills. Right now, I've only confirmed Maven's beam but there are apparently other skills (Sirus' balls and Searing Exarch balls are speculated). Converting Cold/Fir to Lightning also has the benefit of ignoring reductions to those resistances, especially for end-game mapping and Bosses (e.g. Eldritch Altar mods, Monster damage penetration, Curses, etc). However, at exactly 100% Taken As, you must have overcapped Cold/Fire resistances to counter those effect.
+
+Defenses Sources 
+
+· Breachlord Bloodline: 15% less physical and lightning damage taken.
+
+· Glorious Vanity (Xibaqua): Divine Flesh Keystone, search for % mana nodes on a Timeless Jewel calculator.
+
+Cold/Fire conversion:
+· Font of Thunder and either BBD or PoL WE: 50% as Lightning or 40% as Lightning and 10% as Chaos. Note: currently 60% as Chaos and 40% as Lightning doesn't work.
+· Sublime Vision PoL and PoL WE: 50% as Lightning. Additionally, BBD can be used with a min rolled PoL WE (exceeding 100% damage taken increases overall damage taken).
+
+· Physical damage taken as: eldritch Body Armour implicit (11% chaos), Helmet Eldritch implicit mods (8-10% fire/cold/lightning/chaos), legacy Underground mod (10% Chaos), legacy Body Armour and Helmet veil mod (12% and 8% fire/lightning), Shield corruption (8% chaos/lightning/fire/cold), legacy Taste of Haste (20-30% cold)
+
+· Physical DoT mitigation: Soul of Arakaali (10% reduced DoT), Soul of Ralakesh (25% reduced Phys DoT while moving), Lethe Shade (50% less DoT), Bleeding & Corrupted Blood immunity.
+
+· Spell Suppress: not a priority but notably good for physical spells. Instinct and Inveterate are the best suppress clusters. Lucky suppress Mastery helps to pseudo cap.
+
+· Block: Attack block is the most important defense against physical damage. As the Mountain and Wall of Steel are the best block clusters. Sanctuary also gives +1 max Elemental Resistances. In Standard, Svalinn is the best way to scale block.
+
+· Other important Defenses: Stun immunity, Ailment immunity, Impale immunity (Protection Mastery), 90% max Lightning Res
+
+
+Recovery
+
+The main non-legacy recovery sources are Mana regen, Recoup and recovery on skill use, and, for skill cost, ES Leech. With some investment in reduced cost, the build can sustain casting through ES leech (and perma 10% ES recharched /s), and have decent regen (20-30% mana /s). Mana recoup will also help to recover from hits and mana recovery rate will further increase the Mana regen and Recoup. Recovery on skill use is quite strong but cannot be depended on as sometimes you will not recover for several seconds; it should be used a supplemental layer of recovery. It's recommended to use a combination of all sources.
+
+Mana cost with Archmage 
+
+A concern with Mana Archmage builds is spending EHP to cast spells. Mana cost can be mitigated with EB, but without investing in a high ES pool or ES recovery, EB alone will not be enough to sustain casting and investing too heavily in ES with have immediate diminish returns. Reducing Mana cost while using EB is the most effective investment in sustaining casting only through ES permanent recovery (with DF).
+
+Sources:
+· Rings: 7-9% reduced veiled Mana mod (ideally misted)
+· Tree: 15% reduced Forethought cluster, 16% reduced Righteous decree cluster, 10% Mana Mastery
+- Generic skill cost (Life cluster): 15% Tireless cluster
+· Legacy flask mod: 25% reduced, 48% with MB and no flask effect (other than the 25% explicit and 70% enchant).
+· Foulborn Kalisa's Grace: 50% reduced after spending 800 (400 per second)
+· Militant Faith (using Mahuxotl's Machination): 1% reduced per 10 Devotion
+
+
+Mana Leech 
+
+Caster Mana Leech is now legacy, but wander in particular can still have Mana Leech, though with the nerf to the Leech Mastery made Leech less reliable (10% instant Leech to 5%, or 2% max Mana recovered to 1%).
+
+Attack Leech on Tree:
+· Wand Mastery
+· Clever Thief
+· Nighstalker (Dagger cluster)
+
+ES Leech sources (at a low cost):
+· Light Eater or Ethereal Feast while getting the Leech Mastery
+· Ghost Reaver
+
+The strongest source of recovery is legacy Mana Leech (now Attack exclusive). There are 2 legacy sources, Wrath Mana leech Watcher's Eye and legacy Vessel of Vinktar (2 legacy versions).
+
+· Wrath Mana Leech gives low Mana leech (1-1.5%), and instant Leech (5% leech mastery), and requires using Unwavering Crusade to get the Wrath aura as a temporary buff (or using 2 Essence Worm for a permanent buff).
+
+· Vinktar gives high mana leech (20-30%) and 100% instant leech.
+
+Legacy Vinktar is BiS as it grants high Leech, 100% instant leech, and can have full uptime with some investment. Unwavering Crusade will have full uptime against Rares and Bosses with high hit rate skills, such as Ball Lightning.
+
+
+Other notable sources of recovery 
+
+· TWWT Mana regen: requires consuming corpses
+· Pure Talent: connected to witch start (even pathing as non-Witch as Ascendancy)
+· Transcendent Mind: trades Mana (from int) for recovery
+· Weapon Crusible Tree: % Mana regen
+· Recovery on skill use: Mana mastery, Clarity WE, TWWT
+
+
+Damage
+
+MotC has an inherently an Attack Archmage mechanic but gear options limit it to wander in League. The main skills to build around are Kinetic Blast of Clustering and Power Siphon of the Archmage as they inherently scale off Mana, either as a wander or with mines. I haven't explored attack builds in-depth yet.
+
+Archmage, as the cornerstone of the Mana archtype, is the best source of damage for spells. It is easier to build with Elemental Overload but crit will have higher damage. There can also be sustain issues but there are solutions, Eldritch Battery and ES leech for example. The best skills "shotgun" (overlapping areas) or hit multiple time, like Ice Nova of Frostbolt, Ball Lightning of Orbiting, Spark, Blazing Salvo.
+
+The plausible damage source in Standard are too many to list (especially with legacy items). I look forwards to Exile shenanigans.
+
+DPS sources 
+
+· Attack/Spell damage per Mana: legacy Weapon and Shield Synthesised mods
+· Curses: Arcanist Brand for single dps, on hit/nearby for clear
+· Arcane Cloak: automation but not full uptime
+· Arcane Surge: more spell dmg with Hierophant
+· Sigil of Power: dps and tank
+· Frost Shield: crit chance
+· Vaal Righteous Fire
+· Transfiguration of Mind: Foulborn Choir of the Storm's increases apply
+· Focus: Cast/Attack speed on gloves, recover Mana on Body Armour
+· Innervate: applied with "support" skill
+· Unnerve
+· Exposure
+
+Investing in Arcane Surge can make up for the lack of damage Auras. Though, Unwavering Crusade gives access to Wrath, Hatred and Anger Auras.
+
+· Arcane Surge effect sources: Arcane Capacitor cluster (90%), Clarity Sublime Vision (80%), Hierophant nodes (20%).
+
+· Scaling with Power Charges: Disciple of the Forbidden cluster, Malachai's Loop, Instability cluster small node.
+
+
+Mandatory and Recommended Gear/Tree
+
+Mandatory with Foulborn MotC 
+
+· Watcher's Eye: Purity of Lightning Cold/Fire as Lightning is mandatory. Any other Purity of Lightning mod is good, BiS is legacy Purity of Lightning PTA or Wrath Mana leech
+· Glorious Vanity: without Divine Flesh, the build is too weak to be viable
+· Font of Thunder or Sublime Vision (PoL): Cold/Fight as Lightning is mandatory. Font of Thunder can be used with BBD instead of PoL WE
+League:
+· Foulborn Inpulsa's Broken Heart: is required to reserve two Auras
+· Watcher's Eye: Clarity MoM is mandatory for 100%
+
+
+Mandatory without Aylardex 
+
+· 20% MoM Body Armour: Eldritch Implicit and Underground Explicit (cannot use Clarity)
+
+
+Mandatory on non-Hierophant and non-Scion 
+
+· Foulborn MotC: mandatory without Hierophant or Scion
+· Aylardex: non-Aylardex versions are not viable. Additional Curse or max resistance corruptions. BiS is Aylardex with legacy Proficiency anoint or double annointed from Blight
+· Watcher's Eye: Clarity MoM is mandatory. Any other Clarity mod is good, BiS is legacy Wrath Mana leech
+· That Which Was Taken: MoM is mandatory
+· Malachai's Loop: Best source of addition PC and damage. BiS is PTA chaos/lightning double corruption and Mana Crucible Tree
+· Glorious Vanity: without Divine Flesh, the build is too weak to be viable
+· Legacy Honoured Tattoo of the Storm: easier to build around
+· Either MoM Helmet corruption or Synth Sentinel Rings
+
+
+Recommended 
+
+· Foulborn Choir of the Storm: best source of Mana scaling
+· Sublime Vision Purity of Lightning: easier to build around
+· Eldritch & Underground Body Armour: easier to build around
+· Ralakesh's Impatience: stacking Grand Spectrum requires too many jewel sockets
+· Mageblood: easier to cap res and get max res (also more dps)
+· Sublime Vision: great dps source with no downside (reserving mana is not recommended)
+· Underground mana Rings (if not Sentinel)
+· The Meaning of Light: either mana (tank) or lightning damage (dps)
+· Large Cluster Jewel: with Scintillating Idea
+· Healthy Mind
+· Stormshroud for ailment immunity
+· Journey Tattoo of the Mind
+· High Mana Weapon: ideally with any Mana mods on Crucible Tree
+· Legacy Taste of Hate: much needed PTA (without MotC)
+
+
+Passive Tree 
+
+· Mind over Matter (mandatory)
+· Chaos Innoculation (mandatory)
+· Power Charge clusters: Overcharge, Instability, Infused
+· Mana clusters: Forethought, Prodigal Perfection, Deep Thoughts, Arcane Will, Righteous Decree, Arcane Capacitor, Mind Drinker, Battle Rouse, Dynamo, Thrill Killer
+· Discipline of the Forbidden (crit version)
+· Elemental Overload (non-crit version)
+· Unwavering Stance or Pain Attunement for Glorious Vanity
+· Instant Leech Mastery (without Vinktar)
+· Eldritch Battery
+
+
+Noteworthy mechanics, items and interactions
+
+Tool: High MoM calculator (spreadsheet) - Recoup + Petrified Blood (+Ivory Tower MoM)
+
+Spoiler 
+
+· Foulborn Green Dream: convert Cold Resistance to Mana, notably with Tattoo of the Arohongui Moonwarden. Double Foulborn grants Movement Speed per Frenzy Charge as well.
+
+· Foulborn Aylardex: grants EB, saves at least 1 passive point.
+
+· Double Foulborn Choir of the Storm: +3% max Lightning Resistance.
+
+· Foulborn Doon Cuebiyari: % Mana per Strength. Maybe viable melee?
+
+· Foulborn Apep's Rage: flat Chaos damage per Mana. Forbidden Rite could be interesting with a high Energy Shield pool.
+
+· Whispers of Infinity: flat chaos to attacks per mana. The skill cost is redundant with EB and mana cost but enables using life cost skills (such as FRoSS).
+
+· Nine-Lives Looper (Witch): Mana Recoup is scarce but should be possible to sustain self damage and as CI without FR self damage (using lvl31 skeles using +3 Empower and lvl20 CWDT). Jewel sockets are going to be tight. I will be testing the viability on merge.
+
+· Overlapping Impossible Escape with Glorious Vanity for high mana large Notables, 60+ is possible to get iirc. Less relevant with Foulborn Choir of the Storm.
+
+· Overlapping Light of Meaning and Unnatural Instinct near Scion: flat mana or lightning damage.
+
+· Legacy Ancestral Tattoo of Bloodlines: more recovery rate.
+
+· TWWT mods: AoE per PC, recovery when using a skill, % int, int/str, int/dex, instant leech, min PC, etc.
+
+· Legacy Haunted mana per int and PC Helmet mods: not usable with Foulborn MotC.
+
+· Legacy Xopec's Temple mods: especially on gloves.
+
+· Hands of the Fervent: gain Physical damage Archmage buff (skill cost) but receive 150% of cost as Physical DoT.
+
+· Mana on block shield: should be possible to build around (maybe as synth base with PC).
+
+· Indigon with Lavianga's Spirit: Arcane Cloak and flask rota gameplay. Requires Aylardex.
+
+· Melding of the Flesh: cap max res, especially legacy version.
+
+· Aspect of Stone: avoid physical hits.
+
+· Aspect of the Crab: physical damage reduction (requires reserving mana).
+
+· Mahuxotl's Machination: enables using a different Timeless Jewel
+
+· Bugged Fire Res Body Armour, Chieftain and Foulborn Choir of the Storm: 6k-7k increased mana, making 200k-300k max mana very attainable. Currently not 100% MoM viable. Stubborn Student becomes insane double scaling Armour with Res (% from Body and flat from mod), that's 20-30K flat Armour per node (if all unreserved).
+
+
+Build Example
+Keepers League 
+
+Build: BLoO crit version
+
+PoB: https://pobb.in/FPYtUvraynON
+
+(Credit to u/Askuller7 on Reddit)
+
+
+Pre-3.27 
+
+Build: BLoO crit version
+
+PoB: https://pobb.in/JpgqrrVvbkbS
+
+Summary: 13k mana, 30mil min dps, 120mil full buff dps (vaal RF, 3 curses, SoP, FS), ~500k ele hit pool, ~70k phys hit pool.
+
+Pinnacle bosses showcase 
+
+https://youtu.be/WvNxpOmvTbQ
+
