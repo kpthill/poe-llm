@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathOfBuilding>
+<Build level="88" targetVersion="3_0" className="Templar" ascendClassName="Hierophant" mainSocketGroup="1" bandit="None" pantheonMajorGod="TheBrineKing" pantheonMinorGod="Ralakesh">
+</Build>
+<Skills sortGemsByDPS="false" activeSkillSet="1">
+<SkillSet id="1">
+<Skill enabled="true" label="BB" slot="Body Armour" mainActiveSkill="1">
+<Gem nameSpec="Blade Blast" enabled="true" level="20" quality="20" skillStageCount="10"/>
+<Gem nameSpec="Archmage" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Added Lightning Damage" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Lightning Penetration" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Concentrated Effect" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Inspiration" enabled="true" level="20" quality="20"/>
+</Skill>
+<Skill enabled="true" label="Boss blades + curse" slot="Helmet" mainActiveSkill="1">
+<Gem nameSpec="Arcanist Brand" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Conductivity" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Ethereal Knives of Lingering Blades" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Returning Projectiles" enabled="true" level="20" quality="20"/>
+</Skill>
+<Skill enabled="true" label="BFoT + utility" slot="Boots" mainActiveSkill="1">
+<Gem nameSpec="Bladefall of Trarthus" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Clarity" enabled="true" level="1" quality="0"/>
+<Gem nameSpec="Flame Dash" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Arcane Surge" enabled="true" level="6" quality="20"/>
+</Skill>
+<Skill enabled="true" label="Boss buffs" slot="Weapon 1" mainActiveSkill="1">
+<Gem nameSpec="Wave of Conviction" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Sigil of Power" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Increased Duration" enabled="true" level="20" quality="20"/>
+</Skill>
+<Skill enabled="true" label="Guard + EO trigger" slot="Gloves" mainActiveSkill="1">
+<Gem nameSpec="Arcane Cloak" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Increased Duration" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Orb of Storms" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Increased Critical Strikes" enabled="true" level="20" quality="20"/>
+</Skill>
+</SkillSet>
+</Skills>
+<Tree activeSpec="1">
+<Spec treeVersion="3_29" classId="5" ascendClassId="2" nodes="922,1031,4397,7388,7938,8302,8948,9261,10115,10490,10575,11046,11420,11455,11551,12783,12888,12913,13009,13164,14151,15064,16775,16954,17735,17749,18174,18182,18747,19635,20528,22315,22472,22637,24256,24362,25411,25651,25714,26196,26270,26960,27163,27415,27564,27656,27659,29026,29061,29199,29781,29994,30940,31703,31875,31931,32710,33479,34098,34171,34173,34906,36858,37671,37999,38176,38516,41251,41263,43000,44184,45680,46910,47251,48514,48778,49605,50826,51108,52789,53279,53456,55993,56295,57167,58402,60388,60398,60440,60472,61419,61834,62303,63447,63965,63976" masteryEffects="{34723,14100},{13862,59064},{44948,12119}">
+<Sockets>
+<Socket nodeId="61419" itemId="11"/>
+<Socket nodeId="41263" itemId="12"/>
+<Socket nodeId="26196" itemId="13"/>
+<Socket nodeId="61834" itemId="14"/>
+</Sockets>
+</Spec>
+</Tree>
+<Items activeItemSet="1">
+<Item id="1">
+Rarity: UNIQUE
+Foulborn Mind of the Council
+Harlequin Mask
+LevelReq: 57
+Implicits: 1
+{tags:power_charge}+1 to Maximum Power Charges
+250% increased Evasion and Energy Shield
++18 to maximum Energy Shield
+25% increased maximum Mana
+10% chance to Shock
++20% chance to be Shocked
+30% of Lightning Damage is taken from Mana before Life
+30% of Physical Damage is taken from Mana before Life
+Attack Skills have Added Lightning Damage equal to 6% of maximum Mana
+Lose 3% of Mana when you use an Attack Skill
+Corrupted
+</Item>
+<Item id="2">
+Rarity: UNIQUE
+Foulborn The Aylardex
+Agate Amulet
+LevelReq: 32
+Implicits: 1
++20 to Strength and Intelligence
++40 to maximum Life
++60 to maximum Mana
++1 to Maximum Power Charges
+10% increased Mana Regeneration Rate per Power Charge
+90% increased Power Charge Duration
+1% of Damage is taken from Mana before Life per Power Charge
+40% reduced Critical Strike Chance per Power Charge
+Eldritch Battery
+</Item>
+<Item id="3">
+Rarity: UNIQUE
+Font of Thunder
+Mirrored Spiked Shield
+LevelReq: 64
+Implicits: 1
++5% chance to Suppress Spell Damage
+450% increased Evasion and Energy Shield
+30% increased Mana Regeneration Rate
++50% chance to be Shocked
+40% of Cold Damage taken as Lightning Damage
+40% of Fire Damage taken as Lightning Damage
+</Item>
+<Item id="4">
+Rarity: UNIQUE
+Void Battery
+Prophecy Wand
+LevelReq: 68
+Implicits: 1
+38% increased Spell Damage
+50% reduced Spell Damage
+15% increased Cast Speed
+55% increased Global Critical Strike Chance
++110 to maximum Mana
++1 to Maximum Power Charges
+</Item>
+<Item id="5">
+Rarity: RARE
+Budget Body
+Vaal Regalia
+Quality: 20
+Sockets: B-B-B-B-B-B
+LevelReq: 68
+Implicits: 0
++120 to maximum Energy Shield
++90 to maximum Mana
++42% to Lightning Resistance
++38% to Fire Resistance
++35% to Cold Resistance
+</Item>
+<Item id="6">
+Rarity: RARE
+Budget Gloves
+Fingerless Silk Gloves
+Hunter Item
+LevelReq: 70
+Implicits: 0
++55 to maximum Mana
++35% to Lightning Resistance
++30% to Fire Resistance
++55 to Dexterity
+</Item>
+<Item id="7">
+Rarity: RARE
+Budget Boots
+Sorcerer Boots
+Hunter Item
+LevelReq: 67
+Implicits: 0
+30% increased Movement Speed
++50 to maximum Mana
++43 to Dexterity
++35% to Cold Resistance
++30% to Lightning Resistance
+</Item>
+<Item id="8">
+Rarity: RARE
+Budget Belt
+Crystal Belt
+Hunter Item
+LevelReq: 79
+Implicits: 1
++70 to maximum Energy Shield
++60 to maximum Mana
++35% to Fire Resistance
++30% to Cold Resistance
+20% increased Mana Regeneration Rate
+</Item>
+<Item id="9">
+Rarity: RARE
+Budget Ring 1
+Sapphire Ring
+Hunter Item
+LevelReq: 60
+Implicits: 1
++25 to maximum Energy Shield
++65 to maximum Mana
++30% to Lightning Resistance
++25% to Fire Resistance
+8% increased maximum Mana
+15% increased Mana Regeneration Rate
+</Item>
+<Item id="10">
+Rarity: RARE
+Budget Ring 2
+Amethyst Ring
+LevelReq: 60
+Implicits: 1
++17% to Chaos Resistance
++60 to maximum Mana
++30% to Cold Resistance
++30% to Lightning Resistance
+8% increased maximum Mana
++40 to Dexterity
+</Item>
+<Item id="11">
+Rarity: UNIQUE
+Watcher's Eye
+Prismatic Jewel
+LevelReq: 1
+Implicits: 0
+6% increased maximum Energy Shield
+5% increased maximum Life
+5% increased maximum Mana
+10% of Damage taken from Mana before Life while affected by Clarity
+</Item>
+<Item id="12">
+Rarity: UNIQUE
+Glorious Vanity
+Timeless Jewel
+Radius: Large
+Limited to: 1 Historic
+Implicits: 0
+Bathed in the blood of 5000 sacrificed in the name of Xibaqua
+Passives in radius are Conquered by the Vaal
+</Item>
+<Item id="13">
+Rarity: UNIQUE
+Bound by Destiny
+Prismatic Jewel
+Limited to: 1
+LevelReq: 1
+Implicits: 0
+10% of Elemental Damage taken as Chaos Damage if 4 Hunter Items are Equipped
+</Item>
+<Item id="14">
+Rarity: UNIQUE
+Healthy Mind
+Cobalt Jewel
+Radius: Medium
+LevelReq: 1
+Implicits: 0
+18% increased maximum Mana
+Increases and Reductions to Life in Radius are Transformed to apply to Mana at 200% of their value
+</Item>
+<Item id="15">
+Rarity: MAGIC
+Enduring Eternal Mana Flask of the Mage
+Eternal Mana Flask
+Quality: 20
+LevelReq: 65
+Implicits: 0
+Flask Effect is not removed at Full Mana
+8% reduced Mana Cost of Skills during Effect
+</Item>
+<Item id="16">
+Rarity: MAGIC
+Granite Flask of Iron Skin
+Granite Flask
+Quality: 20
+LevelReq: 27
+Implicits: 0
+60% increased Armour during Flask effect
+</Item>
+<Item id="17">
+Rarity: MAGIC
+Quicksilver Flask of Adrenaline
+Quicksilver Flask
+Quality: 20
+LevelReq: 12
+Implicits: 0
+25% increased Movement Speed during Flask effect
+</Item>
+<ItemSet id="1" useSecondWeaponSet="false">
+<Slot name="Helmet" itemId="1"/>
+<Slot name="Amulet" itemId="2"/>
+<Slot name="Weapon 2" itemId="3"/>
+<Slot name="Weapon 1" itemId="4"/>
+<Slot name="Body Armour" itemId="5"/>
+<Slot name="Gloves" itemId="6"/>
+<Slot name="Boots" itemId="7"/>
+<Slot name="Belt" itemId="8"/>
+<Slot name="Ring 1" itemId="9"/>
+<Slot name="Ring 2" itemId="10"/>
+<Slot name="Flask 1" itemId="15"/>
+<Slot name="Flask 2" itemId="16"/>
+<Slot name="Flask 3" itemId="17"/>
+</ItemSet>
+</Items>
+<Config>
+<Input name="enemyIsBoss" string="Uber"/>
+<Input name="usePowerCharges" boolean="true"/>
+<Input name="useEnduranceCharges" boolean="true"/>
+<Input name="conditionStationary" boolean="true"/>
+<Input name="brandAttachedToEnemy" boolean="true"/>
+<Input name="buffArcaneSurge" boolean="true"/>
+<Input name="conditionCritRecently" boolean="true"/>
+<Input name="waveOfConvictionExposureType" string="Lightning"/>
+<Input name="sigilOfPowerStages" number="4"/>
+<Input name="multiplierManaSpentRecently" number="2000"/>
+</Config>
+</PathOfBuilding>

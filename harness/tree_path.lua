@@ -162,6 +162,17 @@ elseif cmd == "path" then
 	table.sort(all)
 	print("POINTS " .. #main .. " ascendancy " .. #asc)
 	print("NODES " .. table.concat(all, ","))
+elseif cmd == "mastery" then
+	local pat = arg[2]:lower()
+	for id, n in pairs(tree.nodes) do
+		if type(n) == "table" and n.isMastery and n.name:lower():find(pat) then
+			print(string.format("%d\t%s\tgroup=%s", id, n.name, tostring(n.group)))
+			for _, eff in ipairs(n.masteryEffects or { }) do
+				print(string.format("  effect=%d\t%s", eff.effect, table.concat(eff.stats, " | ")))
+			end
+		end
+	end
+
 else
-	print("usage: tree_path.lua find|path|near ...")
+	print("usage: tree_path.lua find|path|near|mastery ...")
 end
