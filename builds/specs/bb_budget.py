@@ -163,7 +163,7 @@ Implicits: 0
 
 SKILLS = [
     {"slot": "Body Armour", "label": "BB", "mainActiveSkill": 1, "gems": [
-        {"name": "Blade Blast", "skillStageCount": 10},
+        {"name": "Blade Blast", "skillStageCount": 8},
         {"name": "Archmage"},
         {"name": "Added Lightning Damage"},
         {"name": "Lightning Penetration"},

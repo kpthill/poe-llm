@@ -37,41 +37,33 @@
 </SkillSet>
 </Skills>
 <Tree activeSpec="1">
-<Spec treeVersion="3_29" classId="5" ascendClassId="2" nodes="922,1031,4397,7388,7938,8302,8948,9261,10115,10490,10575,11046,11420,11455,11551,12783,12888,12913,13009,13164,14151,16775,16954,17735,17749,18174,18182,18747,19635,20528,21262,22315,22472,22637,24256,24362,25411,25651,25714,26196,26270,26960,27163,27415,27564,27656,27659,29026,29061,29199,29781,29994,30940,31703,31875,32710,33435,33479,34098,34171,34173,34906,36634,36858,37671,37999,38176,38516,41251,41263,43000,44184,45680,46726,46910,47251,48514,48778,49605,50826,51108,52789,53279,53456,54694,55993,56295,57167,58402,58453,60388,60398,60440,60472,61419,61834,63447,63965,63976" masteryEffects="{34723,14100},{13862,59064},{44948,12119}">
+<Spec treeVersion="3_29" classId="5" ascendClassId="2" nodes="922,1031,4397,7388,7938,8302,9261,10115,10490,10575,11046,11420,11455,11551,12783,12888,12913,13009,13164,14151,15405,16954,17735,17749,18174,18182,18747,19635,20528,21262,22315,22472,22637,23027,24256,24362,25411,25651,25714,26196,26270,26960,27163,27415,27564,27656,29026,29061,29199,29353,29994,30940,31703,31875,32245,32345,32710,33435,33631,33740,34098,34171,34173,34906,36634,36678,36858,37671,37999,38176,38516,39841,41251,41263,41635,42760,43000,44202,45680,46340,46726,46910,47251,48514,48778,49605,49651,50422,50570,50826,50862,51108,52789,53279,53456,54694,55993,56029,56295,57167,58402,58453,60388,60398,60440,60472,61419,61834,63447,63965" masteryEffects="{34723,14100},{13862,59064},{44948,12119}">
 <Overrides>
-<Override nodeId="55332" dn="Journey Tattoo of the Mind"/>
-<Override nodeId="60398" dn="Journey Tattoo of the Mind"/>
-<Override nodeId="60440" dn="Journey Tattoo of the Mind"/>
-<Override nodeId="56295" dn="Journey Tattoo of the Mind"/>
-<Override nodeId="37671" dn="Journey Tattoo of the Mind"/>
-<Override nodeId="37999" dn="Journey Tattoo of the Mind"/>
-<Override nodeId="38176" dn="Journey Tattoo of the Mind"/>
-<Override nodeId="44184" dn="Journey Tattoo of the Mind"/>
-<Override nodeId="47251" dn="Journey Tattoo of the Mind"/>
-<Override nodeId="48778" dn="Journey Tattoo of the Mind"/>
-<Override nodeId="49605" dn="Journey Tattoo of the Mind"/>
-<Override nodeId="53279" dn="Journey Tattoo of the Mind"/>
-<Override nodeId="53456" dn="Journey Tattoo of the Mind"/>
-<Override nodeId="26270" dn="Journey Tattoo of the Mind"/>
-<Override nodeId="27415" dn="Journey Tattoo of the Mind"/>
-<Override nodeId="27564" dn="Journey Tattoo of the Mind"/>
-<Override nodeId="27656" dn="Tattoo of the Valako Stormrider"/>
-<Override nodeId="29199" dn="Tattoo of the Valako Stormrider"/>
-<Override nodeId="32710" dn="Journey Tattoo of the Mind"/>
-<Override nodeId="33479" dn="Journey Tattoo of the Mind"/>
-<Override nodeId="36858" dn="Journey Tattoo of the Mind"/>
-<Override nodeId="1031" dn="Journey Tattoo of the Mind"/>
-<Override nodeId="4397" dn="Journey Tattoo of the Mind"/>
-<Override nodeId="7388" dn="Journey Tattoo of the Mind"/>
-<Override nodeId="7938" dn="Journey Tattoo of the Mind"/>
-<Override nodeId="8948" dn="Journey Tattoo of the Mind"/>
-<Override nodeId="10490" dn="Journey Tattoo of the Mind"/>
-<Override nodeId="10575" dn="Journey Tattoo of the Mind"/>
-<Override nodeId="11551" dn="Journey Tattoo of the Mind"/>
-<Override nodeId="14151" dn="Journey Tattoo of the Mind"/>
-<Override nodeId="17735" dn="Journey Tattoo of the Mind"/>
-<Override nodeId="18182" dn="Journey Tattoo of the Mind"/>
-<Override nodeId="19635" dn="Journey Tattoo of the Mind"/>
+<Override nodeId="32345" dn="Journey Tattoo of the Mind"/>
+<Override nodeId="56029" dn="Journey Tattoo of the Mind"/>
+<Override nodeId="32245" dn="Journey Tattoo of the Mind"/>
+<Override nodeId="1031" dn="Tattoo of the Valako Stormrider"/>
+<Override nodeId="4397" dn="Tattoo of the Valako Stormrider"/>
+<Override nodeId="7388" dn="Tattoo of the Hinekora Shaman"/>
+<Override nodeId="7938" dn="Tattoo of the Hinekora Shaman"/>
+<Override nodeId="10490" dn="Tattoo of the Hinekora Shaman"/>
+<Override nodeId="10575" dn="Tattoo of the Hinekora Shaman"/>
+<Override nodeId="11551" dn="Tattoo of the Hinekora Shaman"/>
+<Override nodeId="14151" dn="Tattoo of the Hinekora Shaman"/>
+<Override nodeId="17735" dn="Tattoo of the Hinekora Shaman"/>
+<Override nodeId="18182" dn="Tattoo of the Hinekora Shaman"/>
+<Override nodeId="19635" dn="Tattoo of the Hinekora Shaman"/>
+<Override nodeId="26270" dn="Tattoo of the Hinekora Shaman"/>
+<Override nodeId="27415" dn="Tattoo of the Valako Warrior"/>
+<Override nodeId="27564" dn="Tattoo of the Valako Warrior"/>
+<Override nodeId="27656" dn="Tattoo of the Valako Warrior"/>
+<Override nodeId="29199" dn="Tattoo of the Valako Warrior"/>
+<Override nodeId="32710" dn="Tattoo of the Valako Warrior"/>
+<Override nodeId="36678" dn="Tattoo of the Valako Warrior"/>
+<Override nodeId="36858" dn="Tattoo of the Valako Warrior"/>
+<Override nodeId="37671" dn="Tattoo of the Valako Warrior"/>
+<Override nodeId="37999" dn="Tattoo of the Valako Warrior"/>
+<Override nodeId="38176" dn="Tattoo of the Valako Warrior"/>
 </Overrides>
 <Sockets>
 <Socket nodeId="61419" itemId="11"/>
@@ -79,6 +71,7 @@
 <Socket nodeId="26196" itemId="13"/>
 <Socket nodeId="61834" itemId="14"/>
 <Socket nodeId="36634" itemId="15"/>
+<Socket nodeId="33631" itemId="16"/>
 </Sockets>
 </Spec>
 </Tree>
@@ -273,6 +266,16 @@ Implicits: 0
 +12% to Cold Resistance
 </Item>
 <Item id="16">
+Rarity: RARE
+Mind Gem Two
+Cobalt Jewel
+LevelReq: 1
+Implicits: 0
+10% increased maximum Mana
+12% increased Lightning Damage
+14% increased Mana Regeneration Rate
+</Item>
+<Item id="17">
 Rarity: MAGIC
 Enduring Eternal Mana Flask of the Mage
 Eternal Mana Flask
@@ -282,7 +285,7 @@ Implicits: 0
 Flask Effect is not removed at Full Mana
 8% reduced Mana Cost of Skills during Effect
 </Item>
-<Item id="17">
+<Item id="18">
 Rarity: MAGIC
 Granite Flask of Iron Skin
 Granite Flask
@@ -291,7 +294,7 @@ LevelReq: 27
 Implicits: 0
 60% increased Armour during Flask effect
 </Item>
-<Item id="18">
+<Item id="19">
 Rarity: MAGIC
 Quicksilver Flask of Adrenaline
 Quicksilver Flask
@@ -311,9 +314,9 @@ Implicits: 0
 <Slot name="Belt" itemId="8"/>
 <Slot name="Ring 1" itemId="9"/>
 <Slot name="Ring 2" itemId="10"/>
-<Slot name="Flask 1" itemId="16"/>
-<Slot name="Flask 2" itemId="17"/>
-<Slot name="Flask 3" itemId="18"/>
+<Slot name="Flask 1" itemId="17"/>
+<Slot name="Flask 2" itemId="18"/>
+<Slot name="Flask 3" itemId="19"/>
 </ItemSet>
 </Items>
 <Config>

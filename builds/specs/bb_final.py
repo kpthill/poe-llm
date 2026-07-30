@@ -25,7 +25,7 @@ LEVEL = 97
 TREE_TARGETS = "34098,11455,31703,41263,22088,38516,51108,24362,27163,10115,18174,20528,34173,25411,9261,30940,922,25651,29026"
 
 # filled in after running tree_path.lua path 5 <TREE_TARGETS>
-NODES = [922,1031,4397,7388,7938,8302,8948,9261,10115,10490,10575,11046,11420,11455,11551,12783,12888,12913,13009,13164,14151,16775,16954,17735,17749,18174,18182,18747,19635,20528,21262,22315,22472,22637,24256,24362,25411,25651,25714,26196,26270,26960,27163,27415,27564,27656,27659,29026,29061,29199,29781,29994,30940,31703,31875,32710,33435,33479,34098,34171,34173,34906,36634,36858,37671,37999,38176,38516,41251,41263,43000,44184,45680,46726,46910,47251,48514,48778,49605,50826,51108,52789,53279,53456,54694,55993,56295,57167,58402,58453,60388,60398,60440,60472,61419,61834,63447,63965,63976]
+NODES = [922,1031,4397,7388,7938,8302,9261,10115,10490,10575,11046,11420,11455,11551,12783,12888,12913,13009,13164,14151,15405,16954,17735,17749,18174,18182,18747,19635,20528,21262,22315,22472,22637,23027,24256,24362,25411,25651,25714,26196,26270,26960,27163,27415,27564,27656,29026,29061,29199,29353,29994,30940,31703,31875,32245,32345,32710,33435,33631,33740,34098,34171,34173,34906,36634,36678,36858,37671,37999,38176,38516,39841,41251,41263,41635,42760,43000,44202,45680,46340,46726,46910,47251,48514,48778,49605,49651,50422,50570,50826,50862,51108,52789,53279,53456,54694,55993,56029,56295,57167,58402,58453,60388,60398,60440,60472,61419,61834,63447,63965]
 
 MASTERIES = {
     34723: 14100,  # Charge Mastery: Cannot be Shocked while at maximum Power Charges
@@ -149,6 +149,14 @@ Implicits: 0
 10% increased Lightning Damage
 +16 to Dexterity
 +12% to Cold Resistance""", "socketNode": 36634},
+    {"item": """Rarity: RARE
+Mind Gem Two
+Cobalt Jewel
+LevelReq: 1
+Implicits: 0
+10% increased maximum Mana
+12% increased Lightning Damage
+14% increased Mana Regeneration Rate""", "socketNode": 33631},
     {"item": """Rarity: MAGIC
 Enduring Eternal Mana Flask of the Mage
 Eternal Mana Flask
@@ -175,7 +183,7 @@ Implicits: 0
 
 SKILLS = [
     {"slot": "Body Armour", "label": "BB", "mainActiveSkill": 1, "gems": [
-        {"name": "Blade Blast", "level": 21, "skillStageCount": 45, "skillPart": 2},
+        {"name": "Blade Blast", "level": 21, "skillStageCount": 29, "skillPart": 2},
         {"name": "Archmage", "level": 21},
         {"name": "Awakened Added Lightning Damage", "level": 5},
         {"name": "Awakened Lightning Penetration", "level": 5},
@@ -221,7 +229,7 @@ CONFIG = {
     "multiplierManaSpentRecently": 2000,
 }
 
-OVERRIDES = {55332: "Journey Tattoo of the Mind", 60398: "Journey Tattoo of the Mind", 60440: "Journey Tattoo of the Mind", 56295: "Journey Tattoo of the Mind", 37671: "Journey Tattoo of the Mind", 37999: "Journey Tattoo of the Mind", 38176: "Journey Tattoo of the Mind", 44184: "Journey Tattoo of the Mind", 47251: "Journey Tattoo of the Mind", 48778: "Journey Tattoo of the Mind", 49605: "Journey Tattoo of the Mind", 53279: "Journey Tattoo of the Mind", 53456: "Journey Tattoo of the Mind", 26270: "Journey Tattoo of the Mind", 27415: "Journey Tattoo of the Mind", 27564: "Journey Tattoo of the Mind", 27656: "Tattoo of the Valako Stormrider", 29199: "Tattoo of the Valako Stormrider", 32710: "Journey Tattoo of the Mind", 33479: "Journey Tattoo of the Mind", 36858: "Journey Tattoo of the Mind", 1031: "Journey Tattoo of the Mind", 4397: "Journey Tattoo of the Mind", 7388: "Journey Tattoo of the Mind", 7938: "Journey Tattoo of the Mind", 8948: "Journey Tattoo of the Mind", 10490: "Journey Tattoo of the Mind", 10575: "Journey Tattoo of the Mind", 11551: "Journey Tattoo of the Mind", 14151: "Journey Tattoo of the Mind", 17735: "Journey Tattoo of the Mind", 18182: "Journey Tattoo of the Mind", 19635: "Journey Tattoo of the Mind"}
+OVERRIDES = {32345: "Journey Tattoo of the Mind", 56029: "Journey Tattoo of the Mind", 32245: "Journey Tattoo of the Mind", 1031: "Tattoo of the Valako Stormrider", 4397: "Tattoo of the Valako Stormrider", 7388: "Tattoo of the Hinekora Shaman", 7938: "Tattoo of the Hinekora Shaman", 10490: "Tattoo of the Hinekora Shaman", 10575: "Tattoo of the Hinekora Shaman", 11551: "Tattoo of the Hinekora Shaman", 14151: "Tattoo of the Hinekora Shaman", 17735: "Tattoo of the Hinekora Shaman", 18182: "Tattoo of the Hinekora Shaman", 19635: "Tattoo of the Hinekora Shaman", 26270: "Tattoo of the Hinekora Shaman", 27415: "Tattoo of the Valako Warrior", 27564: "Tattoo of the Valako Warrior", 27656: "Tattoo of the Valako Warrior", 29199: "Tattoo of the Valako Warrior", 32710: "Tattoo of the Valako Warrior", 36678: "Tattoo of the Valako Warrior", 36858: "Tattoo of the Valako Warrior", 37671: "Tattoo of the Valako Warrior", 37999: "Tattoo of the Valako Warrior", 38176: "Tattoo of the Valako Warrior"}
 
 SPEC = {
     "level": LEVEL,

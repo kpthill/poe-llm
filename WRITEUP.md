@@ -38,8 +38,8 @@ res-penetration (guide-documented; engine confirms full seal otherwise).
 
 | | Budget (~5 div, lvl 88) | Final (~100 div, lvl 97) |
 |---|---|---|
-| **A: Archmage Blade Blast + Bladefall of Trarthus** | **195k** | **4.84M** |
-| C: Archmage Ball Lightning of Orbiting | 137k sustained (215k mana-negative) | ~1.3M sustained (2.1M burst) |
+| **A: Archmage Blade Blast + Bladefall of Trarthus** | **156k** | **337k** |
+| C: Archmage Ball Lightning of Orbiting | 137k sustained (215k mana-negative) | ~185k sustained (283k burst) |
 | B: KBoC / Power Siphon wander | ~40–60k | not built |
 
 - **Blade Blast's DPS = per-hit damage × blades consumed/sec, independent of
@@ -68,8 +68,8 @@ stationary; brand attached; Conductivity (curse-effect-reduced on uber);
 lightning exposure from Wave of Conviction; Sigil of Power stage 4–6; Arcane
 Surge up; crit-recently (trivially true at 25%+ crit, 2+ casts/s); **no** Vaal
 skills, no Arcane Cloak uptime, no shock on enemy, no flask damage mods.
-Blade Blast stage count = sustainable blade generation (10/cast budget;
-45/s via part-2 blade-rate model at final), never the 50-blade UI cap.
+Blade Blast stage count = sustainable blade generation (8/cast budget;
+29/s via part-2 blade-rate model at final), never the 50-blade UI cap.
 
 ## Mapping / bossing loop
 
@@ -92,7 +92,7 @@ Rest: rare 6L ES body, Hunter-influenced mana/res rares (gloves/boots/belt/
 ring), Healthy Mind jewel next to the Circle of Life wheel (life nodes → mana
 at 200% under CI), Enduring Eternal Mana Flask.
 
-Result: 195k uber DPS, 6.3k mana, ~1k regen +flask, 92k ele max hits, 12k
+Result: 156k uber DPS, 6.3k mana, ~1k regen +flask, 121k ele max hits, 16k
 phys max hit, 63k EHP. Phys is the budget weak point (as the archetype guide
 warns) — the Lightning Coil upgrade is the fix.
 
@@ -103,11 +103,14 @@ Level 88 quoted.
 ## Final version (~100 div, level 97)
 
 Upgrades in priority order (each independently testable in PoB):
-1. **Journey Tattoos of the Mind ×30** on int/attr travel nodes (+30 mana
-   per allocated copy — quadratic: 27k flat, ~95k after increases). THE
-   build-defining upgrade; price scales linearly while mana scales
-   quadratically, so buy as many as the wallet allows. Attribute
-   requirements move to gear suffixes (int/dex rolls on rares).
+1. **Journey Tattoos of the Mind ×3** on Alacrity/Agility/Expertise — the
+   tattoo can ONLY replace "+30 to Dexterity" NOTABLES, of which the whole
+   tree has four (the 4th, Proficiency, needs an Impossible Escape (The
+   Impaler) jewel and is roughly break-even vs a rare mana jewel in the
+   same socket). 3 allocated = 270 flat mana. Int travel smalls take the
+   legal small-int tattoos instead: Hinekora Shaman (8% mana regen),
+   Valako Stormrider (+6% lightning res), Valako Warrior (5% lightning
+   damage).
 2. **Volatiled MotC 36/36** → drops the charge requirement to 8 with buffer;
    frees the wand slot for a rare +1-lightning-gems caster wand and removes
    the corrupt dependency.
@@ -118,10 +121,14 @@ Upgrades in priority order (each independently testable in PoB):
 5. Volatiled FoT 41+ (101% conversion), Awakened Added Lightning/Lightning
    Pen, BB 21, Archmage 21, second rare mana jewel.
 
-Result: **4.84M uber DPS, 105k mana, 14.9k regen/s, 2.05M elemental max
-hits, 409k phys max hit, 1.69M EHP, lightning res 75, chaos immune, shock
-immune.** Casting cadence ~2/s keeps Archmage cost inside recovery; DPS is
-unaffected (blade-limited).
+Result: **337k uber DPS, 8.0k mana, 1.3k regen/s, 157k elemental max
+hits, 31.7k phys max hit (comfortably tanks a Shaper slam), 127.5k EHP,
+lightning res 75, chaos immune, shock immune.** Casting cadence ~2/s keeps
+Archmage cost inside recovery; DPS is blade-limited (~29 blades/s at this
+mana). Further scaling paths beyond this snapshot: The Adorned + magic
+mana jewels, a large cluster jewel with Scintillating Idea, Impossible
+Escape + Proficiency, and gem-quality/corruption min-maxing — the league
+ceiling per the archetype guide is ~10k+ mana.
 
 **Fire/cold resistance is deliberately uncapped at final tier**: at 101%
 conversion nothing you take is ever fire or cold (the taken-as lines are
