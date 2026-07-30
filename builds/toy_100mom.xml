@@ -13,7 +13,11 @@
 </SkillSet>
 </Skills>
 <Tree activeSpec="1">
-<Spec treeVersion="3_29" classId="5" ascendClassId="2" nodes="34098,11455,30940,922,25651"/>
+<Spec treeVersion="3_29" classId="5" ascendClassId="2" nodes="922,4397,8948,11046,11420,11455,13009,14151,17735,22637,25651,27415,27564,27659,27929,30940,31703,31875,32024,32710,34098,37671,41263,48778,49605,60398,60440,60554,63965">
+<Sockets>
+<Socket nodeId="41263" itemId="6"/>
+</Sockets>
+</Spec>
 </Tree>
 <Items activeItemSet="1">
 <Item id="1">
@@ -67,13 +71,19 @@ Amethyst Ring
 LevelReq: 60
 Implicits: 0
 +6 to Maximum Power Charges
-Mind over Matter
-Chaos Inoculation
-10% of Damage is taken from Mana before Life
 10% of Damage taken from Mana before Life while affected by Clarity
-Divine Flesh
 10% of Elemental Damage taken as Chaos Damage
 +60 to maximum Mana
+</Item>
+<Item id="6">
+Rarity: UNIQUE
+Glorious Vanity
+Timeless Jewel
+Radius: Large
+Limited to: 1 Historic
+Implicits: 0
+Bathed in the blood of 5000 sacrificed in the name of Xibaqua
+Passives in radius are Conquered by the Vaal
 </Item>
 <ItemSet id="1" useSecondWeaponSet="false">
 <Slot name="Helmet" itemId="1"/>

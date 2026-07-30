@@ -13,6 +13,44 @@ end
 
 dofile("HeadlessWrapper.lua")
 
+-- HeadlessWrapper stubs NewFileSearch/GetScriptPath, which breaks the lazy
+-- timeless-jewel data loader (silently deallocating the whole passive tree
+-- when a timeless jewel is socketed). Provide working implementations; the
+-- .bin files must be pre-decompressed by setup.sh since Inflate is stubbed.
+function GetScriptPath()
+	return "."
+end
+function NewFileSearch(spec)
+	local escaped = spec:gsub("'", "'\\''")
+	local p = io.popen("ls -1 '" .. escaped .. "' 2>/dev/null || ls -1 " .. spec .. " 2>/dev/null")
+	local files = { }
+	if p then
+		for line in p:lines() do
+			files[#files + 1] = line
+		end
+		p:close()
+	end
+	if #files == 0 then
+		return nil
+	end
+	local idx = 1
+	local h = { }
+	function h:GetFileName()
+		return files[idx]:match("[^/]+$")
+	end
+	function h:GetFileModifiedTime()
+		local q = io.popen('stat -c %Y "' .. files[idx] .. '" 2>/dev/null')
+		local t = q and tonumber(q:read("*a"))
+		if q then q:close() end
+		return t or 0
+	end
+	function h:NextFile()
+		idx = idx + 1
+		return files[idx] ~= nil
+	end
+	return h
+end
+
 local f = assert(io.open(xmlPath, "r"), "cannot open " .. xmlPath)
 local xmlText = f:read("*a")
 f:close()
@@ -92,7 +130,16 @@ local result = {
 		level = build.characterLevel,
 		mainSocketGroup = mainGroupIdx,
 		mainSkill = mainSkill,
-		passivePointsUsed = build.spec and build.spec.allocatedNodeCount,
+		passivePointsUsed = (function()
+			if not (build.spec and build.spec.allocNodes) then return nil end
+			local c = 0
+			for _, node in pairs(build.spec.allocNodes) do
+				if node.type ~= "ClassStart" and node.type ~= "AscendClassStart" then
+					c = c + 1
+				end
+			end
+			return c
+		end)(),
 	},
 	curated = curated,
 	allStats = scalars(mainOutput),
