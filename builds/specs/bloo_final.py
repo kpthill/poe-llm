@@ -1,4 +1,4 @@
-# Candidate A, FINAL tier (~100 div): Archmage Blade Blast + Bladefall of Trarthus
+# Candidate C, FINAL tier (~100 div): Archmage Ball Lightning of Orbiting
 # Volatiled MotC 36/36 -> only 4 Aylardex charges needed for 100%; we run 8
 # (3 base + 3 tree + 1 CoP + 1 Aylardex) = 104% MoM: 4-charge loss tolerance,
 # frees wand slot (real caster wand) and both corrupt slots.
@@ -174,28 +174,27 @@ Implicits: 0
 ]
 
 SKILLS = [
-    {"slot": "Body Armour", "label": "BB", "mainActiveSkill": 1, "gems": [
-        {"name": "Blade Blast", "level": 21, "skillStageCount": 45, "skillPart": 2},
+    {"slot": "Body Armour", "label": "BLoO", "mainActiveSkill": 1, "gems": [
+        {"name": "Ball Lightning of Orbiting", "level": 21, "skillPart": 3},
         {"name": "Archmage", "level": 21},
         {"name": "Awakened Added Lightning Damage", "level": 5},
         {"name": "Awakened Lightning Penetration", "level": 5},
         {"name": "Concentrated Effect"},
         {"name": "Inspiration"},
     ]},
-    {"slot": "Helmet", "label": "Boss blades + curse", "gems": [
+    {"slot": "Helmet", "label": "Brand: curse + exposure", "gems": [
         {"name": "Arcanist Brand"},
         {"name": "Conductivity"},
-        {"name": "Ethereal Knives of Lingering Blades"},
-        {"name": "Returning Projectiles"},
+        {"name": "Wave of Conviction"},
+        {"name": "Increased Duration"},
     ]},
     {"slot": "Boots", "label": "BFoT + utility", "gems": [
-        {"name": "Bladefall of Trarthus"},
+        {"name": "Frostblink"},
         {"name": "Clarity", "quality": 0, "level": 1},
         {"name": "Flame Dash"},
         {"name": "Arcane Surge", "level": 6},
     ]},
-    {"slot": "Weapon 1", "label": "Boss buffs", "gems": [
-        {"name": "Wave of Conviction"},
+    {"slot": "Weapon 1", "label": "Sigil", "gems": [
         {"name": "Sigil of Power"},
         {"name": "Increased Duration"},
     ]},
