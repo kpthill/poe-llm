@@ -119,6 +119,11 @@ def build_xml(spec):
     slots_str = "\n".join(slots_xml)
     sockets_str = f"<Sockets>\n{chr(10).join(sockets_xml)}\n</Sockets>" if sockets_xml else ""
 
+    overrides = spec.get("overrides", {})
+    overrides_str = "\n".join(
+        f'<Override nodeId="{n}" dn="{dn}"/>' for n, dn in overrides.items())
+    overrides_block = f"<Overrides>\n{overrides_str}\n</Overrides>" if overrides else ""
+
     masteries = spec.get("masteries", {})
     mastery_str = ",".join(f"{{{n},{e}}}" for n, e in masteries.items())
     mastery_attr = f' masteryEffects="{mastery_str}"' if mastery_str else ""
@@ -146,6 +151,7 @@ def build_xml(spec):
 </Skills>
 <Tree activeSpec="1">
 <Spec treeVersion="3_29" classId="5" ascendClassId="2" nodes="{nodes}"{mastery_attr}>
+{overrides_block}
 {sockets_str}
 </Spec>
 </Tree>

@@ -177,19 +177,19 @@ Implicits: 0
 ]
 
 SKILLS = [
-    {"slot": "Body Armour", "label": "PSoA boss", "mainActiveSkill": 1, "gems": [
-        {"name": "Power Siphon of the Archmage"},
+    {"slot": "Body Armour", "label": "KBoC", "mainActiveSkill": 1, "gems": [
+        {"name": "Kinetic Blast of Clustering", "skillPart": 2},
+        {"name": "Greater Multiple Projectiles"},
         {"name": "Elemental Damage with Attacks"},
         {"name": "Added Lightning Damage"},
         {"name": "Lightning Penetration"},
         {"name": "Inspiration"},
-        {"name": "Barrage Support"},
     ]},
-    {"slot": "Helmet", "label": "KBoC clear", "gems": [
-        {"name": "Kinetic Blast of Clustering"},
-        {"name": "Greater Multiple Projectiles"},
+    {"slot": "Helmet", "label": "PSoA charges/buff", "gems": [
+        {"name": "Power Siphon of the Archmage"},
         {"name": "Elemental Damage with Attacks"},
         {"name": "Added Lightning Damage"},
+        {"name": "Faster Attacks"},
     ]},
     {"slot": "Boots", "label": "Utility", "gems": [
         {"name": "Clarity", "quality": 0, "level": 1},

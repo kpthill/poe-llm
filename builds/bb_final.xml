@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathOfBuilding>
+<Build level="97" targetVersion="3_0" className="Templar" ascendClassName="Hierophant" mainSocketGroup="1" bandit="None" pantheonMajorGod="TheBrineKing" pantheonMinorGod="Ralakesh">
+</Build>
+<Skills sortGemsByDPS="false" activeSkillSet="1">
+<SkillSet id="1">
+<Skill enabled="true" label="BB" slot="Body Armour" mainActiveSkill="1">
+<Gem nameSpec="Blade Blast" enabled="true" level="21" quality="20" skillStageCount="45" skillPart="2"/>
+<Gem nameSpec="Archmage" enabled="true" level="21" quality="20"/>
+<Gem nameSpec="Awakened Added Lightning Damage" enabled="true" level="5" quality="20"/>
+<Gem nameSpec="Awakened Lightning Penetration" enabled="true" level="5" quality="20"/>
+<Gem nameSpec="Concentrated Effect" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Inspiration" enabled="true" level="20" quality="20"/>
+</Skill>
+<Skill enabled="true" label="Boss blades + curse" slot="Helmet" mainActiveSkill="1">
+<Gem nameSpec="Arcanist Brand" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Conductivity" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Ethereal Knives of Lingering Blades" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Returning Projectiles" enabled="true" level="20" quality="20"/>
+</Skill>
+<Skill enabled="true" label="BFoT + utility" slot="Boots" mainActiveSkill="1">
+<Gem nameSpec="Bladefall of Trarthus" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Clarity" enabled="true" level="1" quality="0"/>
+<Gem nameSpec="Flame Dash" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Arcane Surge" enabled="true" level="6" quality="20"/>
+</Skill>
+<Skill enabled="true" label="Boss buffs" slot="Weapon 1" mainActiveSkill="1">
+<Gem nameSpec="Wave of Conviction" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Sigil of Power" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Increased Duration" enabled="true" level="20" quality="20"/>
+</Skill>
+<Skill enabled="true" label="Guard + EO trigger" slot="Gloves" mainActiveSkill="1">
+<Gem nameSpec="Arcane Cloak" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Increased Duration" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Orb of Storms" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Increased Critical Strikes" enabled="true" level="20" quality="20"/>
+</Skill>
+</SkillSet>
+</Skills>
+<Tree activeSpec="1">
+<Spec treeVersion="3_29" classId="5" ascendClassId="2" nodes="922,1031,4397,7388,7938,8302,8948,9261,10115,10490,10575,11046,11420,11455,11551,12783,12888,12913,13009,13164,14151,16775,16954,17735,17749,18174,18182,18747,19635,20528,21262,22315,22472,22637,24256,24362,25411,25651,25714,26196,26270,26960,27163,27415,27564,27656,27659,29026,29061,29199,29781,29994,30940,31703,31875,32710,33435,33479,34098,34171,34173,34906,36634,36858,37671,37999,38176,38516,41251,41263,43000,44184,45680,46726,46910,47251,48514,48778,49605,50826,51108,52789,53279,53456,54694,55993,56295,57167,58402,58453,60388,60398,60440,60472,61419,61834,63447,63965,63976" masteryEffects="{34723,14100},{13862,59064},{44948,12119}">
+<Overrides>
+<Override nodeId="55332" dn="Tattoo of the Ngamahu Firewalker"/>
+<Override nodeId="56295" dn="Tattoo of the Arohongui Moonwarden"/>
+<Override nodeId="37671" dn="Tattoo of the Ngamahu Firewalker"/>
+<Override nodeId="37999" dn="Tattoo of the Ngamahu Firewalker"/>
+<Override nodeId="38176" dn="Tattoo of the Ngamahu Firewalker"/>
+<Override nodeId="44184" dn="Tattoo of the Arohongui Moonwarden"/>
+<Override nodeId="47251" dn="Tattoo of the Arohongui Moonwarden"/>
+<Override nodeId="48778" dn="Tattoo of the Arohongui Moonwarden"/>
+<Override nodeId="49605" dn="Tattoo of the Arohongui Moonwarden"/>
+<Override nodeId="53279" dn="Tattoo of the Arohongui Moonwarden"/>
+<Override nodeId="53456" dn="Tattoo of the Arohongui Moonwarden"/>
+<Override nodeId="26270" dn="Tattoo of the Ngamahu Firewalker"/>
+<Override nodeId="27415" dn="Tattoo of the Ngamahu Firewalker"/>
+<Override nodeId="27564" dn="Tattoo of the Ngamahu Firewalker"/>
+<Override nodeId="27656" dn="Tattoo of the Valako Stormrider"/>
+<Override nodeId="29199" dn="Tattoo of the Valako Stormrider"/>
+<Override nodeId="32710" dn="Tattoo of the Arohongui Moonwarden"/>
+<Override nodeId="33479" dn="Tattoo of the Arohongui Moonwarden"/>
+<Override nodeId="36858" dn="Tattoo of the Arohongui Moonwarden"/>
+<Override nodeId="1031" dn="Journey Tattoo of the Mind"/>
+<Override nodeId="4397" dn="Journey Tattoo of the Mind"/>
+<Override nodeId="7388" dn="Journey Tattoo of the Mind"/>
+<Override nodeId="7938" dn="Journey Tattoo of the Mind"/>
+<Override nodeId="8948" dn="Journey Tattoo of the Mind"/>
+<Override nodeId="10490" dn="Journey Tattoo of the Mind"/>
+<Override nodeId="10575" dn="Journey Tattoo of the Mind"/>
+<Override nodeId="11551" dn="Journey Tattoo of the Mind"/>
+<Override nodeId="14151" dn="Journey Tattoo of the Mind"/>
+<Override nodeId="17735" dn="Journey Tattoo of the Mind"/>
+<Override nodeId="18182" dn="Journey Tattoo of the Mind"/>
+<Override nodeId="19635" dn="Journey Tattoo of the Mind"/>
+</Overrides>
+<Sockets>
+<Socket nodeId="61419" itemId="11"/>
+<Socket nodeId="41263" itemId="12"/>
+<Socket nodeId="26196" itemId="13"/>
+<Socket nodeId="61834" itemId="14"/>
+<Socket nodeId="36634" itemId="15"/>
+</Sockets>
+</Spec>
+</Tree>
+<Items activeItemSet="1">
+<Item id="1">
+Rarity: UNIQUE
+Foulborn Mind of the Council
+Harlequin Mask
+LevelReq: 57
+Implicits: 0
+260% increased Evasion and Energy Shield
++20 to maximum Energy Shield
+30% increased maximum Mana
+10% chance to Shock
++20% chance to be Shocked
+36% of Lightning Damage is taken from Mana before Life
+36% of Physical Damage is taken from Mana before Life
+Attack Skills have Added Lightning Damage equal to 6% of maximum Mana
+Lose 3% of Mana when you use an Attack Skill
+Corrupted
+</Item>
+<Item id="2">
+Rarity: UNIQUE
+Foulborn The Aylardex
+Agate Amulet
+LevelReq: 32
+Implicits: 1
++20 to Strength and Intelligence
++40 to maximum Life
++60 to maximum Mana
++1 to Maximum Power Charges
+10% increased Mana Regeneration Rate per Power Charge
+90% increased Power Charge Duration
+1% of Damage is taken from Mana before Life per Power Charge
+40% reduced Critical Strike Chance per Power Charge
+Eldritch Battery
+</Item>
+<Item id="3">
+Rarity: UNIQUE
+Font of Thunder
+Mirrored Spiked Shield
+LevelReq: 64
+Implicits: 1
++5% chance to Suppress Spell Damage
+450% increased Evasion and Energy Shield
+30% increased Mana Regeneration Rate
++50% chance to be Shocked
+40% of Cold Damage taken as Lightning Damage
+40% of Fire Damage taken as Lightning Damage
+</Item>
+<Item id="4">
+Rarity: RARE
+Endgame Caster Wand
+Profane Wand
+Quality: 20
+LevelReq: 68
+Implicits: 1
+14% increased Spell Damage
++1 to Level of all Lightning Spell Skill Gems
+75% increased Spell Damage
++100 to maximum Mana
+20% increased Cast Speed
+Gain 8% of Lightning Damage as Extra Chaos Damage
+</Item>
+<Item id="5">
+Rarity: UNIQUE
+Lightning Coil
+Desert Brigandine
+Quality: 20
+Sockets: B-B-B-B-B-B
+LevelReq: 68
+Implicits: 0
+Adds 1 to 25 Lightning Damage to Attacks
+110% increased Armour and Evasion
++70 to maximum Life
+-60% to Lightning Resistance
+50% of Physical Damage from Hits taken as Lightning Damage
+</Item>
+<Item id="6">
+Rarity: RARE
+Budget Gloves
+Fingerless Silk Gloves
+Hunter Item
+LevelReq: 70
+Implicits: 0
++90 to maximum Mana
++45% to Lightning Resistance
++45% to Fire Resistance
++55 to Dexterity
+</Item>
+<Item id="7">
+Rarity: UNIQUE
+Ralakesh's Impatience
+Riveted Boots
+LevelReq: 36
+Implicits: 0
++20% to Cold Resistance
++20% to Chaos Resistance
+20% increased Movement Speed
+Corrupted Blood cannot be inflicted on you
+Count as having maximum number of Power Charges
+</Item>
+<Item id="8">
+Rarity: RARE
+Budget Belt
+Crystal Belt
+Hunter Item
+LevelReq: 79
+Implicits: 1
++80 to maximum Energy Shield
++90 to maximum Mana
++48% to Fire Resistance
++40% to Lightning Resistance
+25% increased Mana Regeneration Rate
+</Item>
+<Item id="9">
+Rarity: RARE
+Budget Ring 1
+Sapphire Ring
+Hunter Item
+LevelReq: 60
+Implicits: 1
++100 to maximum Mana
+10% increased maximum Mana
++45% to Lightning Resistance
++30 to Dexterity
+8% reduced Mana Cost of Skills
+</Item>
+<Item id="10">
+Rarity: RARE
+Budget Ring 2
+Amethyst Ring
+Hunter Item
+LevelReq: 60
+Implicits: 1
++17% to Chaos Resistance
++100 to maximum Mana
+10% increased maximum Mana
++40% to Cold Resistance
++45% to Lightning Resistance
++40 to Dexterity
+</Item>
+<Item id="11">
+Rarity: UNIQUE
+Watcher's Eye
+Prismatic Jewel
+LevelReq: 1
+Implicits: 0
+6% increased maximum Energy Shield
+5% increased maximum Life
+5% increased maximum Mana
+10% of Damage taken from Mana before Life while affected by Clarity
+</Item>
+<Item id="12">
+Rarity: UNIQUE
+Glorious Vanity
+Timeless Jewel
+Radius: Large
+Limited to: 1 Historic
+Implicits: 0
+Bathed in the blood of 5000 sacrificed in the name of Xibaqua
+Passives in radius are Conquered by the Vaal
+</Item>
+<Item id="13">
+Rarity: UNIQUE
+Bound by Destiny
+Prismatic Jewel
+Limited to: 1
+LevelReq: 1
+Implicits: 0
+10% of Elemental Damage taken as Chaos Damage if 4 Hunter Items are Equipped
+</Item>
+<Item id="14">
+Rarity: UNIQUE
+Healthy Mind
+Cobalt Jewel
+Radius: Medium
+LevelReq: 1
+Implicits: 0
+18% increased maximum Mana
+Increases and Reductions to Life in Radius are Transformed to apply to Mana at 200% of their value
+</Item>
+<Item id="15">
+Rarity: RARE
+Mind Gem
+Cobalt Jewel
+LevelReq: 1
+Implicits: 0
+8% increased maximum Mana
+10% increased Lightning Damage
++16 to Dexterity
++12% to Cold Resistance
+</Item>
+<Item id="16">
+Rarity: MAGIC
+Enduring Eternal Mana Flask of the Mage
+Eternal Mana Flask
+Quality: 20
+LevelReq: 65
+Implicits: 0
+Flask Effect is not removed at Full Mana
+8% reduced Mana Cost of Skills during Effect
+</Item>
+<Item id="17">
+Rarity: MAGIC
+Granite Flask of Iron Skin
+Granite Flask
+Quality: 20
+LevelReq: 27
+Implicits: 0
+60% increased Armour during Flask effect
+</Item>
+<Item id="18">
+Rarity: MAGIC
+Quicksilver Flask of Adrenaline
+Quicksilver Flask
+Quality: 20
+LevelReq: 12
+Implicits: 0
+25% increased Movement Speed during Flask effect
+</Item>
+<ItemSet id="1" useSecondWeaponSet="false">
+<Slot name="Helmet" itemId="1"/>
+<Slot name="Amulet" itemId="2"/>
+<Slot name="Weapon 2" itemId="3"/>
+<Slot name="Weapon 1" itemId="4"/>
+<Slot name="Body Armour" itemId="5"/>
+<Slot name="Gloves" itemId="6"/>
+<Slot name="Boots" itemId="7"/>
+<Slot name="Belt" itemId="8"/>
+<Slot name="Ring 1" itemId="9"/>
+<Slot name="Ring 2" itemId="10"/>
+<Slot name="Flask 1" itemId="16"/>
+<Slot name="Flask 2" itemId="17"/>
+<Slot name="Flask 3" itemId="18"/>
+</ItemSet>
+</Items>
+<Config>
+<Input name="enemyIsBoss" string="Uber"/>
+<Input name="usePowerCharges" boolean="true"/>
+<Input name="useEnduranceCharges" boolean="true"/>
+<Input name="overrideEnduranceCharges" number="1"/>
+<Input name="conditionStationary" boolean="true"/>
+<Input name="brandAttachedToEnemy" boolean="true"/>
+<Input name="buffArcaneSurge" boolean="true"/>
+<Input name="conditionCritRecently" boolean="true"/>
+<Input name="waveOfConvictionExposureType" string="Lightning"/>
+<Input name="sigilOfPowerStages" number="6"/>
+<Input name="multiplierManaSpentRecently" number="2000"/>
+</Config>
+</PathOfBuilding>

@@ -4,19 +4,19 @@
 </Build>
 <Skills sortGemsByDPS="false" activeSkillSet="1">
 <SkillSet id="1">
-<Skill enabled="true" label="PSoA boss" slot="Body Armour" mainActiveSkill="1">
-<Gem nameSpec="Power Siphon of the Archmage" enabled="true" level="20" quality="20"/>
+<Skill enabled="true" label="KBoC" slot="Body Armour" mainActiveSkill="1">
+<Gem nameSpec="Kinetic Blast of Clustering" enabled="true" level="20" quality="20" skillPart="2"/>
+<Gem nameSpec="Greater Multiple Projectiles" enabled="true" level="20" quality="20"/>
 <Gem nameSpec="Elemental Damage with Attacks" enabled="true" level="20" quality="20"/>
 <Gem nameSpec="Added Lightning Damage" enabled="true" level="20" quality="20"/>
 <Gem nameSpec="Lightning Penetration" enabled="true" level="20" quality="20"/>
 <Gem nameSpec="Inspiration" enabled="true" level="20" quality="20"/>
-<Gem nameSpec="Barrage Support" enabled="true" level="20" quality="20"/>
 </Skill>
-<Skill enabled="true" label="KBoC clear" slot="Helmet" mainActiveSkill="1">
-<Gem nameSpec="Kinetic Blast of Clustering" enabled="true" level="20" quality="20"/>
-<Gem nameSpec="Greater Multiple Projectiles" enabled="true" level="20" quality="20"/>
+<Skill enabled="true" label="PSoA charges/buff" slot="Helmet" mainActiveSkill="1">
+<Gem nameSpec="Power Siphon of the Archmage" enabled="true" level="20" quality="20"/>
 <Gem nameSpec="Elemental Damage with Attacks" enabled="true" level="20" quality="20"/>
 <Gem nameSpec="Added Lightning Damage" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Faster Attacks" enabled="true" level="20" quality="20"/>
 </Skill>
 <Skill enabled="true" label="Utility" slot="Boots" mainActiveSkill="1">
 <Gem nameSpec="Clarity" enabled="true" level="1" quality="0"/>
