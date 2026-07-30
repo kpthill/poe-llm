@@ -1,4 +1,4 @@
-# Candidate A, budget tier (~5 div): Archmage Blade Blast + Bladefall of Trarthus
+# Candidate C, budget tier (~5 div): Archmage Ball Lightning of Orbiting
 # 100% MoM: 40 keystone + 10 Divine Guidance + 10 Clarity WE + 10 Aylardex (10 PC)
 #           + 30/30 Foulborn MotC
 # Charges (10): 3 base + 1 Aylardex + 1 Conviction of Power + 3 tree notables
@@ -162,30 +162,30 @@ Implicits: 0
 ]
 
 SKILLS = [
-    {"slot": "Body Armour", "label": "BB", "mainActiveSkill": 1, "gems": [
-        {"name": "Blade Blast", "skillStageCount": 10},
+    {"slot": "Body Armour", "label": "BLoO", "mainActiveSkill": 1, "gems": [
+        {"name": "Ball Lightning of Orbiting", "skillPart": 3},
         {"name": "Archmage"},
+        {"name": "Concentrated Effect"},
         {"name": "Added Lightning Damage"},
         {"name": "Lightning Penetration"},
-        {"name": "Concentrated Effect"},
         {"name": "Inspiration"},
     ]},
-    {"slot": "Helmet", "label": "Boss blades + curse", "gems": [
+    {"slot": "Helmet", "label": "Brand: curse + exposure", "gems": [
         {"name": "Arcanist Brand"},
         {"name": "Conductivity"},
-        {"name": "Ethereal Knives of Lingering Blades"},
-        {"name": "Returning Projectiles"},
+        {"name": "Wave of Conviction"},
+        {"name": "Increased Duration"},
     ]},
-    {"slot": "Boots", "label": "BFoT + utility", "gems": [
-        {"name": "Bladefall of Trarthus"},
+    {"slot": "Boots", "label": "Utility", "gems": [
+        {"name": "Frostblink"},
         {"name": "Clarity", "quality": 0, "level": 1},
         {"name": "Flame Dash"},
         {"name": "Arcane Surge", "level": 6},
     ]},
-    {"slot": "Weapon 1", "label": "Boss buffs", "gems": [
-        {"name": "Wave of Conviction"},
+    {"slot": "Weapon 1", "label": "Sigil", "gems": [
         {"name": "Sigil of Power"},
         {"name": "Increased Duration"},
+        {"name": "Vaal Righteous Fire", "enabled": False},
     ]},
     {"slot": "Gloves", "label": "Guard + EO trigger", "gems": [
         {"name": "Arcane Cloak"},

@@ -4,36 +4,35 @@
 </Build>
 <Skills sortGemsByDPS="false" activeSkillSet="1">
 <SkillSet id="1">
-<Skill enabled="true" label="BB" slot="Body Armour" mainActiveSkill="1">
-<Gem nameSpec="Blade Blast" enabled="true" level="20" quality="20" skillStageCount="10"/>
-<Gem nameSpec="Archmage" enabled="true" level="20" quality="20"/>
+<Skill enabled="true" label="PSoA boss" slot="Body Armour" mainActiveSkill="1">
+<Gem nameSpec="Power Siphon of the Archmage" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Elemental Damage with Attacks" enabled="true" level="20" quality="20"/>
 <Gem nameSpec="Added Lightning Damage" enabled="true" level="20" quality="20"/>
 <Gem nameSpec="Lightning Penetration" enabled="true" level="20" quality="20"/>
-<Gem nameSpec="Concentrated Effect" enabled="true" level="20" quality="20"/>
 <Gem nameSpec="Inspiration" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Barrage Support" enabled="true" level="20" quality="20"/>
 </Skill>
-<Skill enabled="true" label="Boss blades + curse" slot="Helmet" mainActiveSkill="1">
-<Gem nameSpec="Arcanist Brand" enabled="true" level="20" quality="20"/>
-<Gem nameSpec="Conductivity" enabled="true" level="20" quality="20"/>
-<Gem nameSpec="Ethereal Knives of Lingering Blades" enabled="true" level="20" quality="20"/>
-<Gem nameSpec="Returning Projectiles" enabled="true" level="20" quality="20"/>
+<Skill enabled="true" label="KBoC clear" slot="Helmet" mainActiveSkill="1">
+<Gem nameSpec="Kinetic Blast of Clustering" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Greater Multiple Projectiles" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Elemental Damage with Attacks" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Added Lightning Damage" enabled="true" level="20" quality="20"/>
 </Skill>
-<Skill enabled="true" label="BFoT + utility" slot="Boots" mainActiveSkill="1">
-<Gem nameSpec="Bladefall of Trarthus" enabled="true" level="20" quality="20"/>
+<Skill enabled="true" label="Utility" slot="Boots" mainActiveSkill="1">
 <Gem nameSpec="Clarity" enabled="true" level="1" quality="0"/>
 <Gem nameSpec="Flame Dash" enabled="true" level="20" quality="20"/>
 <Gem nameSpec="Arcane Surge" enabled="true" level="6" quality="20"/>
+<Gem nameSpec="Frostblink" enabled="true" level="20" quality="20"/>
 </Skill>
-<Skill enabled="true" label="Boss buffs" slot="Weapon 1" mainActiveSkill="1">
-<Gem nameSpec="Wave of Conviction" enabled="true" level="20" quality="20"/>
-<Gem nameSpec="Sigil of Power" enabled="true" level="20" quality="20"/>
-<Gem nameSpec="Increased Duration" enabled="true" level="20" quality="20"/>
-</Skill>
-<Skill enabled="true" label="Guard + EO trigger" slot="Gloves" mainActiveSkill="1">
+<Skill enabled="true" label="Guard + curse" slot="Gloves" mainActiveSkill="1">
 <Gem nameSpec="Arcane Cloak" enabled="true" level="20" quality="20"/>
 <Gem nameSpec="Increased Duration" enabled="true" level="20" quality="20"/>
-<Gem nameSpec="Orb of Storms" enabled="true" level="20" quality="20"/>
-<Gem nameSpec="Increased Critical Strikes" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Conductivity" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Precision" enabled="true" level="6" quality="20"/>
+</Skill>
+<Skill enabled="true" label="Exposure" slot="Weapon 1" mainActiveSkill="1">
+<Gem nameSpec="Wave of Conviction" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Increased Duration" enabled="true" level="20" quality="20"/>
 </Skill>
 </SkillSet>
 </Skills>
@@ -71,8 +70,9 @@ Rarity: UNIQUE
 Foulborn The Aylardex
 Agate Amulet
 LevelReq: 32
-Implicits: 1
+Implicits: 2
 +20 to Strength and Intelligence
++1 to Maximum Power Charges
 +40 to maximum Life
 +60 to maximum Mana
 +1 to Maximum Power Charges
@@ -81,6 +81,7 @@ Implicits: 1
 1% of Damage is taken from Mana before Life per Power Charge
 40% reduced Critical Strike Chance per Power Charge
 Eldritch Battery
+Corrupted
 </Item>
 <Item id="3">
 Rarity: UNIQUE
@@ -96,17 +97,17 @@ Implicits: 1
 40% of Fire Damage taken as Lightning Damage
 </Item>
 <Item id="4">
-Rarity: UNIQUE
-Void Battery
-Prophecy Wand
-LevelReq: 68
+Rarity: RARE
+Budget Attack Wand
+Imbued Wand
+Quality: 20
+LevelReq: 59
 Implicits: 1
-38% increased Spell Damage
-50% reduced Spell Damage
-15% increased Cast Speed
-55% increased Global Critical Strike Chance
-+110 to maximum Mana
-+1 to Maximum Power Charges
+40% increased Spell Damage
+Adds 5 to 75 Lightning Damage
+27% increased Attack Speed
++30% to Global Critical Strike Multiplier
++350 to Accuracy Rating
 </Item>
 <Item id="5">
 Rarity: RARE
@@ -131,7 +132,7 @@ LevelReq: 70
 Implicits: 0
 +55 to maximum Mana
 +35% to Lightning Resistance
-+30% to Fire Resistance
++400 to Accuracy Rating
 +55 to Dexterity
 </Item>
 <Item id="7">
@@ -281,7 +282,6 @@ Implicits: 0
 <Input name="buffArcaneSurge" boolean="true"/>
 <Input name="conditionCritRecently" boolean="true"/>
 <Input name="waveOfConvictionExposureType" string="Lightning"/>
-<Input name="sigilOfPowerStages" number="4"/>
 <Input name="multiplierManaSpentRecently" number="2000"/>
 </Config>
 </PathOfBuilding>

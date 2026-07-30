@@ -4,30 +4,30 @@
 </Build>
 <Skills sortGemsByDPS="false" activeSkillSet="1">
 <SkillSet id="1">
-<Skill enabled="true" label="BB" slot="Body Armour" mainActiveSkill="1">
-<Gem nameSpec="Blade Blast" enabled="true" level="20" quality="20" skillStageCount="10"/>
+<Skill enabled="true" label="BLoO" slot="Body Armour" mainActiveSkill="1">
+<Gem nameSpec="Ball Lightning of Orbiting" enabled="true" level="20" quality="20" skillPart="3"/>
 <Gem nameSpec="Archmage" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Concentrated Effect" enabled="true" level="20" quality="20"/>
 <Gem nameSpec="Added Lightning Damage" enabled="true" level="20" quality="20"/>
 <Gem nameSpec="Lightning Penetration" enabled="true" level="20" quality="20"/>
-<Gem nameSpec="Concentrated Effect" enabled="true" level="20" quality="20"/>
 <Gem nameSpec="Inspiration" enabled="true" level="20" quality="20"/>
 </Skill>
-<Skill enabled="true" label="Boss blades + curse" slot="Helmet" mainActiveSkill="1">
+<Skill enabled="true" label="Brand: curse + exposure" slot="Helmet" mainActiveSkill="1">
 <Gem nameSpec="Arcanist Brand" enabled="true" level="20" quality="20"/>
 <Gem nameSpec="Conductivity" enabled="true" level="20" quality="20"/>
-<Gem nameSpec="Ethereal Knives of Lingering Blades" enabled="true" level="20" quality="20"/>
-<Gem nameSpec="Returning Projectiles" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Wave of Conviction" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Increased Duration" enabled="true" level="20" quality="20"/>
 </Skill>
-<Skill enabled="true" label="BFoT + utility" slot="Boots" mainActiveSkill="1">
-<Gem nameSpec="Bladefall of Trarthus" enabled="true" level="20" quality="20"/>
+<Skill enabled="true" label="Utility" slot="Boots" mainActiveSkill="1">
+<Gem nameSpec="Frostblink" enabled="true" level="20" quality="20"/>
 <Gem nameSpec="Clarity" enabled="true" level="1" quality="0"/>
 <Gem nameSpec="Flame Dash" enabled="true" level="20" quality="20"/>
 <Gem nameSpec="Arcane Surge" enabled="true" level="6" quality="20"/>
 </Skill>
-<Skill enabled="true" label="Boss buffs" slot="Weapon 1" mainActiveSkill="1">
-<Gem nameSpec="Wave of Conviction" enabled="true" level="20" quality="20"/>
+<Skill enabled="true" label="Sigil" slot="Weapon 1" mainActiveSkill="1">
 <Gem nameSpec="Sigil of Power" enabled="true" level="20" quality="20"/>
 <Gem nameSpec="Increased Duration" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Vaal Righteous Fire" enabled="false" level="20" quality="20"/>
 </Skill>
 <Skill enabled="true" label="Guard + EO trigger" slot="Gloves" mainActiveSkill="1">
 <Gem nameSpec="Arcane Cloak" enabled="true" level="20" quality="20"/>

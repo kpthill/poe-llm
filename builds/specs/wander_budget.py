@@ -1,4 +1,4 @@
-# Candidate A, budget tier (~5 div): Archmage Blade Blast + Bladefall of Trarthus
+# Candidate B, budget tier (~5 div): Wander - Power Siphon of the Archmage + KB of Clustering
 # 100% MoM: 40 keystone + 10 Divine Guidance + 10 Clarity WE + 10 Aylardex (10 PC)
 #           + 30/30 Foulborn MotC
 # Charges (10): 3 base + 1 Aylardex + 1 Conviction of Power + 3 tree notables
@@ -45,19 +45,34 @@ Implicits: 1
 Attack Skills have Added Lightning Damage equal to 6% of maximum Mana
 Lose 3% of Mana when you use an Attack Skill
 Corrupted""", "slot": "Helmet"},
-    {"item": "aylardex", "slot": "Amulet"},
-    {"item": "font_of_thunder", "slot": "Weapon 2"},
     {"item": """Rarity: UNIQUE
-Void Battery
-Prophecy Wand
-LevelReq: 68
+Foulborn The Aylardex
+Agate Amulet
+LevelReq: 32
+Implicits: 2
++20 to Strength and Intelligence
++1 to Maximum Power Charges
++40 to maximum Life
++60 to maximum Mana
++1 to Maximum Power Charges
+10% increased Mana Regeneration Rate per Power Charge
+90% increased Power Charge Duration
+1% of Damage is taken from Mana before Life per Power Charge
+40% reduced Critical Strike Chance per Power Charge
+Eldritch Battery
+Corrupted""", "slot": "Amulet"},
+    {"item": "font_of_thunder", "slot": "Weapon 2"},
+    {"item": """Rarity: RARE
+Budget Attack Wand
+Imbued Wand
+Quality: 20
+LevelReq: 59
 Implicits: 1
-38% increased Spell Damage
-50% reduced Spell Damage
-15% increased Cast Speed
-55% increased Global Critical Strike Chance
-+110 to maximum Mana
-+1 to Maximum Power Charges""", "slot": "Weapon 1"},
+40% increased Spell Damage
+Adds 5 to 75 Lightning Damage
+27% increased Attack Speed
++30% to Global Critical Strike Multiplier
++350 to Accuracy Rating""", "slot": "Weapon 1"},
     {"item": """Rarity: RARE
 Budget Body
 Vaal Regalia
@@ -78,7 +93,7 @@ LevelReq: 70
 Implicits: 0
 +55 to maximum Mana
 +35% to Lightning Resistance
-+30% to Fire Resistance
++400 to Accuracy Rating
 +55 to Dexterity""", "slot": "Gloves"},
     {"item": """Rarity: RARE
 Budget Boots
@@ -162,36 +177,35 @@ Implicits: 0
 ]
 
 SKILLS = [
-    {"slot": "Body Armour", "label": "BB", "mainActiveSkill": 1, "gems": [
-        {"name": "Blade Blast", "skillStageCount": 10},
-        {"name": "Archmage"},
+    {"slot": "Body Armour", "label": "PSoA boss", "mainActiveSkill": 1, "gems": [
+        {"name": "Power Siphon of the Archmage"},
+        {"name": "Elemental Damage with Attacks"},
         {"name": "Added Lightning Damage"},
         {"name": "Lightning Penetration"},
-        {"name": "Concentrated Effect"},
         {"name": "Inspiration"},
+        {"name": "Barrage Support"},
     ]},
-    {"slot": "Helmet", "label": "Boss blades + curse", "gems": [
-        {"name": "Arcanist Brand"},
-        {"name": "Conductivity"},
-        {"name": "Ethereal Knives of Lingering Blades"},
-        {"name": "Returning Projectiles"},
+    {"slot": "Helmet", "label": "KBoC clear", "gems": [
+        {"name": "Kinetic Blast of Clustering"},
+        {"name": "Greater Multiple Projectiles"},
+        {"name": "Elemental Damage with Attacks"},
+        {"name": "Added Lightning Damage"},
     ]},
-    {"slot": "Boots", "label": "BFoT + utility", "gems": [
-        {"name": "Bladefall of Trarthus"},
+    {"slot": "Boots", "label": "Utility", "gems": [
         {"name": "Clarity", "quality": 0, "level": 1},
         {"name": "Flame Dash"},
         {"name": "Arcane Surge", "level": 6},
+        {"name": "Frostblink"},
     ]},
-    {"slot": "Weapon 1", "label": "Boss buffs", "gems": [
-        {"name": "Wave of Conviction"},
-        {"name": "Sigil of Power"},
-        {"name": "Increased Duration"},
-    ]},
-    {"slot": "Gloves", "label": "Guard + EO trigger", "gems": [
+    {"slot": "Gloves", "label": "Guard + curse", "gems": [
         {"name": "Arcane Cloak"},
         {"name": "Increased Duration"},
-        {"name": "Orb of Storms"},
-        {"name": "Increased Critical Strikes"},
+        {"name": "Conductivity"},
+        {"name": "Precision", "level": 6},
+    ]},
+    {"slot": "Weapon 1", "label": "Exposure", "gems": [
+        {"name": "Wave of Conviction"},
+        {"name": "Increased Duration"},
     ]},
 ]
 
@@ -204,8 +218,7 @@ CONFIG = {
     "buffArcaneSurge": True,
     "conditionCritRecently": True,
     "waveOfConvictionExposureType": "Lightning",
-    "sigilOfPowerStages": 4,
-    "multiplierManaSpentRecently": 2000,
+        "multiplierManaSpentRecently": 2000,
 }
 
 SPEC = {
