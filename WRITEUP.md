@@ -38,8 +38,8 @@ res-penetration (guide-documented; engine confirms full seal otherwise).
 
 | | Budget (~5 div, lvl 88) | Final (~100 div, lvl 97) |
 |---|---|---|
-| **A: Archmage Blade Blast + Bladefall of Trarthus** | **195k** | **1.19M** |
-| C: Archmage Ball Lightning of Orbiting | 137k sustained (215k mana-negative) | 418k sustained (560k burst) |
+| **A: Archmage Blade Blast + Bladefall of Trarthus** | **195k** | **4.84M** |
+| C: Archmage Ball Lightning of Orbiting | 137k sustained (215k mana-negative) | ~1.3M sustained (2.1M burst) |
 | B: KBoC / Power Siphon wander | ~40–60k | not built |
 
 - **Blade Blast's DPS = per-hit damage × blades consumed/sec, independent of
@@ -103,9 +103,11 @@ Level 88 quoted.
 ## Final version (~100 div, level 97)
 
 Upgrades in priority order (each independently testable in PoB):
-1. **Journey Tattoos of the Mind ×12** on int travel nodes (+30 mana per
-   allocated copy — quadratic: ~4.3k flat, ~14k after increases). Biggest
-   single upgrade in the build; buy early if cheap.
+1. **Journey Tattoos of the Mind ×30** on int/attr travel nodes (+30 mana
+   per allocated copy — quadratic: 27k flat, ~95k after increases). THE
+   build-defining upgrade; price scales linearly while mana scales
+   quadratically, so buy as many as the wallet allows. Attribute
+   requirements move to gear suffixes (int/dex rolls on rares).
 2. **Volatiled MotC 36/36** → drops the charge requirement to 8 with buffer;
    frees the wand slot for a rare +1-lightning-gems caster wand and removes
    the corrupt dependency.
@@ -116,10 +118,19 @@ Upgrades in priority order (each independently testable in PoB):
 5. Volatiled FoT 41+ (101% conversion), Awakened Added Lightning/Lightning
    Pen, BB 21, Archmage 21, second rare mana jewel.
 
-Result: **1.19M uber DPS, 23.7k mana, 3.4k regen/s, 465k elemental max hits,
-93k phys max hit (double uber Shaper slam), 381k EHP, all res 75, chaos
-immune, shock immune.** Casting cadence ~2/s keeps Archmage cost inside
-recovery; DPS is unaffected (blade-limited).
+Result: **4.84M uber DPS, 105k mana, 14.9k regen/s, 2.05M elemental max
+hits, 409k phys max hit, 1.69M EHP, lightning res 75, chaos immune, shock
+immune.** Casting cadence ~2/s keeps Archmage cost inside recovery; DPS is
+unaffected (blade-limited).
+
+**Fire/cold resistance is deliberately uncapped at final tier**: at 101%
+conversion nothing you take is ever fire or cold (the taken-as lines are
+generic, so ground DoTs convert too), and the ~12 tattoo slots that would
+cap them are worth ~4x more as Journey Tattoos. At budget (exactly 100%),
+keep fire/cold positive and above enemy penetration after map mods
+(~50-60 uncapped is comfortable) because of the documented rounding leak.
+Freeze/chill still comes from cold *hits dealt*, so take Brine King
+pantheon or a cannot-be-frozen source.
 
 Beyond 100 div: Mageblood (res frees tattoo slots → all Journey tattoos →
 ~30k mana), +1% max lightning res tattoos ("of the Makanga"), double-corrupt

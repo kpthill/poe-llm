@@ -83,7 +83,7 @@ LevelReq: 70
 Implicits: 0
 +90 to maximum Mana
 +45% to Lightning Resistance
-+45% to Fire Resistance
++55 to Intelligence
 +55 to Dexterity""", "slot": "Gloves"},
     {"item": """Rarity: UNIQUE
 Ralakesh's Impatience
@@ -103,7 +103,7 @@ LevelReq: 79
 Implicits: 1
 +80 to maximum Energy Shield
 +90 to maximum Mana
-+48% to Fire Resistance
++55 to Intelligence
 +40% to Lightning Resistance
 25% increased Mana Regeneration Rate""", "slot": "Belt"},
     {"item": """Rarity: RARE
@@ -126,7 +126,7 @@ Implicits: 1
 +17% to Chaos Resistance
 +100 to maximum Mana
 10% increased maximum Mana
-+40% to Cold Resistance
++50 to Intelligence
 +45% to Lightning Resistance
 +40 to Dexterity""", "slot": "Ring 2"},
     {"item": "watchers_eye", "socketNode": 61419},
@@ -221,7 +221,7 @@ CONFIG = {
     "multiplierManaSpentRecently": 2000,
 }
 
-OVERRIDES = {55332: "Tattoo of the Ngamahu Firewalker", 60398: "Tattoo of the Ngamahu Firewalker", 60440: "Tattoo of the Ngamahu Firewalker", 56295: "Tattoo of the Arohongui Moonwarden", 37671: "Tattoo of the Ngamahu Firewalker", 37999: "Tattoo of the Ngamahu Firewalker", 38176: "Tattoo of the Ngamahu Firewalker", 44184: "Tattoo of the Arohongui Moonwarden", 47251: "Tattoo of the Arohongui Moonwarden", 48778: "Tattoo of the Arohongui Moonwarden", 49605: "Tattoo of the Arohongui Moonwarden", 53279: "Tattoo of the Arohongui Moonwarden", 53456: "Tattoo of the Arohongui Moonwarden", 26270: "Tattoo of the Ngamahu Firewalker", 27415: "Tattoo of the Ngamahu Firewalker", 27564: "Tattoo of the Ngamahu Firewalker", 27656: "Tattoo of the Valako Stormrider", 29199: "Tattoo of the Valako Stormrider", 32710: "Tattoo of the Arohongui Moonwarden", 33479: "Tattoo of the Arohongui Moonwarden", 36858: "Tattoo of the Arohongui Moonwarden", 1031: "Journey Tattoo of the Mind", 4397: "Journey Tattoo of the Mind", 7388: "Journey Tattoo of the Mind", 7938: "Journey Tattoo of the Mind", 8948: "Journey Tattoo of the Mind", 10490: "Journey Tattoo of the Mind", 10575: "Journey Tattoo of the Mind", 11551: "Journey Tattoo of the Mind", 14151: "Journey Tattoo of the Mind", 17735: "Journey Tattoo of the Mind", 18182: "Journey Tattoo of the Mind", 19635: "Journey Tattoo of the Mind"}
+OVERRIDES = {55332: "Journey Tattoo of the Mind", 60398: "Journey Tattoo of the Mind", 60440: "Journey Tattoo of the Mind", 56295: "Journey Tattoo of the Mind", 37671: "Journey Tattoo of the Mind", 37999: "Journey Tattoo of the Mind", 38176: "Journey Tattoo of the Mind", 44184: "Journey Tattoo of the Mind", 47251: "Journey Tattoo of the Mind", 48778: "Journey Tattoo of the Mind", 49605: "Journey Tattoo of the Mind", 53279: "Journey Tattoo of the Mind", 53456: "Journey Tattoo of the Mind", 26270: "Journey Tattoo of the Mind", 27415: "Journey Tattoo of the Mind", 27564: "Journey Tattoo of the Mind", 27656: "Tattoo of the Valako Stormrider", 29199: "Tattoo of the Valako Stormrider", 32710: "Journey Tattoo of the Mind", 33479: "Journey Tattoo of the Mind", 36858: "Journey Tattoo of the Mind", 1031: "Journey Tattoo of the Mind", 4397: "Journey Tattoo of the Mind", 7388: "Journey Tattoo of the Mind", 7938: "Journey Tattoo of the Mind", 8948: "Journey Tattoo of the Mind", 10490: "Journey Tattoo of the Mind", 10575: "Journey Tattoo of the Mind", 11551: "Journey Tattoo of the Mind", 14151: "Journey Tattoo of the Mind", 17735: "Journey Tattoo of the Mind", 18182: "Journey Tattoo of the Mind", 19635: "Journey Tattoo of the Mind"}
 
 SPEC = {
     "level": LEVEL,
