@@ -111,8 +111,8 @@ Upgrades in priority order (each independently testable in PoB):
 2. **Volatiled MotC 36/36** → drops the charge requirement to 8 with buffer;
    frees the wand slot for a rare +1-lightning-gems caster wand and removes
    the corrupt dependency.
-3. **Lightning Coil** (phys max hit 12k → 93k) + re-cap res via +6% res
-   tattoos on remaining int nodes.
+3. **Lightning Coil** (transforms phys max hit) — only lightning res needs
+   re-capping after its -60%; fire/cold stay uncapped (see below).
 4. **Power-variant Ralakesh's Impatience** (~45 div): charges never drop —
    100% MoM and shock immunity become unconditional.
 5. Volatiled FoT 41+ (101% conversion), Awakened Added Lightning/Lightning
