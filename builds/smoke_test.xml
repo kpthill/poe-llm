@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathOfBuilding>
+<Build level="90" targetVersion="3_0" className="Ranger" ascendClassName="Deadeye" mainSocketGroup="1">
+</Build>
+<Skills sortGemsByDPS="true" activeSkillSet="1">
+<SkillSet id="1">
+<Skill enabled="true" label="" slot="Weapon 1" mainActiveSkill="1">
+<Gem nameSpec="Lightning Arrow" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Elemental Damage with Attacks" enabled="true" level="20" quality="20"/>
+<Gem nameSpec="Trinity" enabled="true" level="20" quality="20"/>
+</Skill>
+</SkillSet>
+</Skills>
+<Tree activeSpec="1">
+<Spec treeVersion="3_29" classId="2" ascendClassId="1" nodes=""/>
+</Tree>
+<Items activeItemSet="1">
+<ItemSet id="1" useSecondWeaponSet="false"/>
+</Items>
+<Config>
+<Input name="enemyIsBoss" string="Pinnacle"/>
+</Config>
+</PathOfBuilding>
