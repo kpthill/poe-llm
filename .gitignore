@@ -1,2 +1,3 @@
 # Path of Building clone (852 MB, fetched by setup.sh — not ours to commit)
 /pob/
+harness/.fetch-state/
